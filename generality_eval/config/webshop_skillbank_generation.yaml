@@ -1,0 +1,63 @@
+training_config: configs/train_webshop.yaml
+
+training_overrides:
+  - webshop.task_split=training_holdout
+  - webshop.human_goals=false
+  - webshop.environment_seed=null
+  - webshop.train_task_count=300
+  - webshop.unique_asin_split=true
+
+pool_dir: outputs/knowledge_bank/webshop/trace_pool
+environment:
+  env_service_url: ""
+  repo_root: ${WEBSHOP_REPO_ROOT}
+  products_file: ${WEBSHOP_DATA_ROOT}/items_shuffle.json
+  attributes_file: ${WEBSHOP_DATA_ROOT}/items_ins_v2.json
+  human_attributes_file: ${WEBSHOP_DATA_ROOT}/items_human_ins.json
+  search_index: ${WEBSHOP_DATA_ROOT}/search_engine/indexes
+  rollout_timeout_s: 7200
+
+trace_actor:
+  backend: local_sglang
+  model: Qwen/Qwen3.5-4B
+  model_path: "" # Optional local copy of the original Qwen3.5-4B weights
+  request_model: "" # Optional existing server /v1/models alias
+  base_url: ""
+  api_key_env: ACTOR_API_KEY
+  server:
+    gpus: "0"
+    tp_size: 1
+    dp_size: 1
+    context_length: 32768
+    mem_fraction_static: 0.8
+    extra_args: [--max-running-requests, "256"]
+collection:
+  seed: 1
+  workers: 16
+  max_attempts_per_task: 3
+  task_manifest: "" # Optional original training task_manifest.json
+
+generator:
+  backend: local_sglang
+  model: ${CURATOR_MODEL}
+  model_path: ""
+  request_model: ""
+  base_url: ""
+  api_key_env: CURATOR_API_KEY
+  reasoning_effort: null
+  timeout_s: 180
+  server:
+    gpus: "0"
+    tp_size: 1
+    dp_size: 1
+    context_length: 16384
+    mem_fraction_static: 0.8
+    extra_args: [--max-running-requests, "256"]
+
+sampling:
+  skill_count: 50
+  seed: 42
+  workers: 8
+
+output:
+  path: outputs/knowledge_bank/webshop/all.jsonl

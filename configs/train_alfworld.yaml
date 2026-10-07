@@ -1,0 +1,333 @@
+# KnowledgeWeaver: standalone success + marginal success + tokenwise ABS-MI.
+experiment_name: knowledgeweaver-alfworld
+trial_name: run1
+seed: 1
+enable_offload: true
+total_train_epochs: 1
+total_train_steps: 60
+tokenizer_path: ${actor.path}
+workflow: areal.workflow.alfworld_skill.ALFWorldSkillGRPOWorkflow
+actor_server:
+  enabled: true
+  model_path: ${actor.path}
+  host: 127.0.0.1
+  port: 30080
+  cuda_visible_devices: ${oc.env:ACTOR_SERVER_CUDA_VISIBLE_DEVICES,"0,1,2,3,4,5"}
+  tensor_parallel_size: 1
+  data_parallel_size: 6
+  dtype: bfloat16
+  mem_fraction_static: 0.86
+  context_length: 16384
+  startup_timeout_s: 1800.0
+  api_key: ''
+  extra_args:
+  - --max-running-requests
+  - '256'
+  - --disable-cuda-graph
+alfworld:
+  artifact_dir: ${oc.env:AREAL_OUTPUT_ROOT}/${experiment_name}/${trial_name}/alfworld_skill
+  repo_root: ${oc.env:ALFWORLD_ROOT}
+  data_root: ${oc.env:ALFWORLD_DATA_ROOT}
+  train_split: train
+  rollouts_per_skill: 8
+  max_rollout_steps: 50
+  memory_window: 5
+  max_commands: 140
+  prompt_observation_char_limit: 120
+  prompt_result_char_limit: 120
+  actor_temperature: 0.0
+  actor_timeout_s: 120.0
+  rollout_timeout_s: 0.0
+  skill_eval_workers: 0
+  episode_rollout_workers: 128
+  progress_summary_interval_s: 10.0
+  samples_per_round: 0
+  rounds_per_category: 0
+  groups_per_round: 8
+  trajectory_pool_enabled: true
+  trajectory_pool_initial_size: 300
+  trajectory_pool_prompt_episodes: 4
+  trajectory_pool_initial_workers: 64
+  trajectory_pool_use_previous_step: true
+  trajectory_pool_delete_consumed_step: true
+  parallelize_same_step_rounds: true
+  skill_generation_enable_thinking: false
+  skill_generation_max_retries: 0
+  outcome_flattened_scheduler: true
+  outcome_condition_workers: 32
+  skill_output_format: skill_xml
+  skill_description_max_words: 100
+  fail_fast_actor_error_rate: 0.5
+  fail_fast_infra_error_rate: 0.5
+  reward:
+    sr_weight: 0.5
+    mutual_information_weight: 0.1
+    mutual_information_scale: 1.0
+    mutual_information_token_margin_clip: null
+    mutual_information_token_reward_clip: 0.15
+    schema_valid_bonus: 0.02
+    schema_invalid_penalty: -0.1
+    mutual_information_token_reward_soft_cap: null
+  task_types:
+  - pick_and_place_simple
+  - look_at_obj_in_light
+  - pick_heat_then_place_in_recep
+  - pick_two_obj_and_place
+  - pick_clean_then_place_in_recep
+  - pick_cool_then_place_in_recep
+  skill_prompt_version: evidence_discovery
+  online_skillbank:
+    weight: 0.5
+    bank_weight: 1.0
+    standalone_weight: 0.0
+    top_k: 3
+    seed: 23000
+    warmup_steps: 20
+    warmup_update_type_count: 2
+    later_update_type_count: 1
+    zero_epsilon: 0.0
+    embedding_model: sentence-transformers/all-mpnet-base-v2
+    embedding_batch_size: 64
+    embedding_max_length: 256
+    max_compute_multiplier: 2.25
+alfworld_eval:
+  enabled: true
+  workflow: areal.workflow.alfworld_skill.ALFWorldSkillEvalWorkflow
+  split: valid_unseen
+  k: 6
+  tasks_per_type: 0
+  seed: 1001
+  early_stop_enabled: true
+  early_stop_patience: 3
+  early_stop_min_schema_valid_rate: 0.25
+  checkpoint_retention_enabled: true
+  checkpoint_retention_keep_latest: 1
+  checkpoint_retention_metric: alfworld_eval_all_sr
+  checkpoint_retention_protect_existing: true
+cluster:
+  n_nodes: 1
+  n_gpus_per_node: 2
+  fileroot: ${oc.env:AREAL_OUTPUT_ROOT}
+  name_resolve:
+    type: nfs
+    nfs_record_root: ${oc.env:AREAL_NAME_RESOLVE_ROOT}
+scheduler:
+  type: local
+rollout:
+  backend: sglang:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  max_concurrent_rollouts: 256
+  queue_size: null
+  consumer_batch_size: ${train_dataset.batch_size}
+  max_head_offpolicyness: 0
+  enable_rollout_tracing: false
+  check_trajectory_format: false
+  scheduling_strategy:
+    type: colocation
+    target: actor
+    fork: true
+  scheduling_spec: ${ref.scheduling_spec}
+  fileroot: ${cluster.fileroot}
+  tokenizer_path: ${tokenizer_path}
+  dump_to_file: false
+  request_timeout: 7200.0
+  setup_timeout: 1800.0
+  agent:
+    mode: inline
+    export_style: individual
+    turn_discount: 1.0
+gconfig:
+  n_samples: 8
+  min_new_tokens: 0
+  max_new_tokens: 256
+  max_tokens: 6000
+  greedy: false
+  temperature: 1.0
+  top_p: 1.0
+eval_gconfig:
+  n_samples: 1
+  min_new_tokens: 0
+  max_new_tokens: 256
+  max_tokens: 6000
+  greedy: false
+  temperature: 1.0
+  top_p: 1.0
+actor:
+  scheduling_strategy:
+    type: separation
+  backend: fsdp:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  path: ${oc.env:ACTOR_MODEL_PATH,Qwen/Qwen3.5-4B}
+  init_from_scratch: false
+  disable_dropout: true
+  gradient_checkpointing: true
+  dtype: bfloat16
+  optimizer_dtype: bfloat16
+  offload: true
+  attn_impl: sdpa
+  mb_spec:
+    max_tokens_per_mb: 6000
+    packing_algorithm: ffd
+  optimizer:
+    type: adam_bf16
+    lr: 1.0e-06
+    weight_decay: 0.01
+    beta1: 0.9
+    beta2: 0.999
+    eps: 1.0e-08
+    lr_scheduler_type: constant
+    gradient_clipping: 1.0
+    warmup_steps_proportion: 0.0
+  eps_clip: 0.2
+  temperature: ${gconfig.temperature}
+  reward_scaling: 1.0
+  reward_bias: 0.0
+  kl_ctl: 0.01
+  ppo_n_minibatches: 32
+  recompute_logprob: true
+  use_decoupled_loss: true
+  prox_logp_method: loglinear
+  rejection_sampling: null
+  reward_norm:
+    mean_level: group
+    std_level: group
+    group_size: ${gconfig.n_samples}
+  adv_norm:
+    mean_level: batch
+    std_level: batch
+  weight_update_mode: disk
+  max_new_tokens: ${gconfig.max_new_tokens}
+  scheduling_spec:
+  - task_type: worker
+    port_count: 2
+    gpu: 1
+    mem: 48
+    cmd: python3 -m areal.infra.rpc.rpc_server
+    env_vars: {}
+ref:
+  backend: fsdp:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  path: ${actor.path}
+  init_from_scratch: false
+  disable_dropout: true
+  dtype: ${actor.dtype}
+  offload: true
+  attn_impl: ${actor.attn_impl}
+  mb_spec:
+    max_tokens_per_mb: 6000
+    packing_algorithm: ffd
+  optimizer: null
+  scheduling_strategy:
+    type: colocation
+    target: actor
+    fork: true
+  scheduling_spec:
+  - task_type: worker
+    port_count: 2
+    gpu: 1
+    mem: 48
+    cmd: python3 -m areal.infra.rpc.rpc_server
+    env_vars: {}
+critic: null
+sglang:
+  enable_memory_saver: true
+  model_path: ${actor.path}
+  random_seed: ${seed}
+  skip_tokenizer_init: true
+  dtype: ${actor.dtype}
+  max_running_requests: 256
+  context_length: 16384
+  mem_fraction_static: 0.55
+  attention_backend: null
+  disable_cuda_graph: true
+vllm:
+  model: ${actor.path}
+  seed: ${seed}
+  skip_tokenizer_init: false
+  dtype: ${actor.dtype}
+  max_model_len: 32768
+  gpu_memory_utilization: 0.3
+train_dataset:
+  batch_size: 32
+  shuffle: false
+  pin_memory: true
+  num_workers: 0
+  drop_last: false
+  path: alfworld_skill
+  type: rl
+  max_length: null
+  dataset_kwargs:
+    seed: ${seed}
+    task_types: ${alfworld.task_types}
+valid_dataset:
+  batch_size: 6
+  shuffle: false
+  pin_memory: true
+  num_workers: 0
+  drop_last: false
+  path: alfworld_skill
+  type: rl
+  max_length: null
+  split: valid_unseen
+  dataset_kwargs:
+    mode: eval
+    seed: ${seed}
+    task_types: ${alfworld.task_types}
+saver:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${oc.env:AREAL_CHECKPOINT_ROOT}
+  freq_epochs: null
+  freq_steps: 2
+  force_steps:
+  - 40
+  - 50
+  freq_secs: null
+recover:
+  mode: auto
+  no_save_optim: true
+  no_load_optim: true
+  align_dataloader_to_step: true
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${oc.env:AREAL_CHECKPOINT_ROOT}
+  freq_epochs: null
+  freq_steps: 2
+  freq_secs: null
+evaluator:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  freq_epochs: null
+  freq_steps: 1
+  freq_secs: null
+  eval_before_train: false
+stats_logger:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  wandb:
+    mode: ${oc.env:WANDB_MODE,disabled}
+    wandb_base_url: ${oc.env:WANDB_BASE_URL,""}
+    wandb_api_key: ${oc.env:WANDB_API_KEY,""}
+    entity: null
+    project: ${oc.env:WANDB_PROJECT,alfworld-skill-grpo}
+    name: ${trial_name}
+    job_type: train
+    group: ${experiment_name}
+    tags:
+    - knowledgeweaver
+    - alfworld
+    notes: 0.5 standalone success + 0.5 bank marginal success; tokenwise absolute
+      MI weight 0.1, cap 0.15.
+    id_suffix: train
+perf_tracer:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  enabled: false
+  session_tracer:
+    enabled: false

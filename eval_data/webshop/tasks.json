@@ -1,0 +1,1575 @@
+{
+  "candidate_count": 500,
+  "eval_indices": [
+    327,
+    57,
+    12,
+    379,
+    140,
+    125,
+    114,
+    71,
+    377,
+    52,
+    346,
+    496,
+    456,
+    279,
+    44,
+    302,
+    216,
+    16,
+    15,
+    47,
+    111,
+    119,
+    258,
+    308,
+    13,
+    287,
+    101,
+    366,
+    332,
+    359,
+    486,
+    214,
+    112,
+    229,
+    301,
+    142,
+    414,
+    445,
+    3,
+    388,
+    412,
+    81,
+    357,
+    483,
+    174,
+    464,
+    79,
+    110,
+    390,
+    172,
+    490,
+    480,
+    194,
+    49,
+    183,
+    433,
+    176,
+    309,
+    135,
+    413,
+    22,
+    373,
+    235,
+    274,
+    63,
+    193,
+    40,
+    282,
+    150,
+    424,
+    321,
+    316,
+    185,
+    295,
+    98,
+    360,
+    35,
+    23,
+    338,
+    116,
+    395,
+    148,
+    444,
+    478,
+    51,
+    447,
+    454,
+    232,
+    325,
+    186,
+    83,
+    189,
+    181,
+    107,
+    343,
+    136,
+    470,
+    349,
+    331,
+    36
+  ],
+  "eval_summary": {
+    "category_counts": {
+      "beauty": 24,
+      "electronics": 12,
+      "fashion": 20,
+      "garden": 22,
+      "grocery": 22
+    },
+    "count": 100,
+    "unique_asins": 100
+  },
+  "eval_tasks": [
+    {
+      "asin": "B09MDYVTCW",
+      "attributes": [
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "cactus2cbu9481",
+        "set of 4 with cup holder"
+      ],
+      "index": 327,
+      "instruction": "i need green cactus coasters for the living room that come in a pack of four, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B07QW1G8MW",
+      "attributes": [
+        "kosher certified"
+      ],
+      "category": "grocery",
+      "goal_options": [],
+      "index": 57,
+      "instruction": "i need some kosher sea salt, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B07W92ZMZN",
+      "attributes": [
+        "blu ray"
+      ],
+      "category": "electronics",
+      "goal_options": [],
+      "index": 12,
+      "instruction": "i am looking for a remote control for an lg blu-ray dvd home theater system, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B07CT5Q656",
+      "attributes": [
+        "clear glass",
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "mystic sand"
+      ],
+      "index": 379,
+      "instruction": "i want a clear glass mystic sand colored wall sconce. it will go in my living room, and price lower than 230.00 dollars",
+      "price_upper": 230.0
+    },
+    {
+      "asin": "B0141TMYV8",
+      "attributes": [
+        "rubber sole"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "fabric",
+        "6.5"
+      ],
+      "index": 140,
+      "instruction": "i'm looking for some women's sneakers with rubber soles.  make sure they are fabric and in a size 6.5, and price lower than 190.00 dollars",
+      "price_upper": 190.0
+    },
+    {
+      "asin": "B07BHH3RJ2",
+      "attributes": [
+        "leak proof",
+        "travel bottles"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 125,
+      "instruction": "i need a leak proof travel bottle that is reusable and comes in 6 pack, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09LH2827W",
+      "attributes": [
+        "easy install",
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "07.pastel_blue",
+        "w45 x h56 (inch)"
+      ],
+      "index": 114,
+      "instruction": "i want a easy install roller sades window tretment  size w45*h56 in color pastel blue, and price lower than 100.00 dollars",
+      "price_upper": 100.0
+    },
+    {
+      "asin": "B00U3TE9ZU",
+      "attributes": [
+        "long lasting"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "no.21"
+      ],
+      "index": 71,
+      "instruction": "i'm looking for a long lasting foundation that has spf50+.  also, choose the color no. 21, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09SFYFZW5",
+      "attributes": [
+        "knee high"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "8"
+      ],
+      "index": 377,
+      "instruction": "i am looking for high knee womens flat sandals of size 8, and price lower than 140.00 dollars",
+      "price_upper": 140.0
+    },
+    {
+      "asin": "B093ZNDMMS",
+      "attributes": [
+        "dermatologist tested"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "cucumber + aloe"
+      ],
+      "index": 52,
+      "instruction": "i want a body wash that is dermatologist tested. it should have a cucumber and aloe scent, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B07B6NM7Q2",
+      "attributes": [
+        "valentine day"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "1 pound (pack of 1)"
+      ],
+      "index": 346,
+      "instruction": "i am looking for a milk chocolate of 1 pound size in a single pack for valentine day, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B091F3RWX8",
+      "attributes": [
+        "eco friendly"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "06 brown-2pcs"
+      ],
+      "index": 496,
+      "instruction": "i need brown eco friendly nikahoo small storage baskets, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B08PN4HT3W",
+      "attributes": [
+        "non dairy"
+      ],
+      "category": "grocery",
+      "goal_options": [],
+      "index": 456,
+      "instruction": "in the last order i bought the sauce from the brand orgânicville organic, caesar sauce, the taste is very good .no dairy, 8 fz i want to repeat this order , and price lower than 140.00 dollars",
+      "price_upper": 140.0
+    },
+    {
+      "asin": "B08K38RMW7",
+      "attributes": [
+        "soft material"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "c-blue"
+      ],
+      "index": 279,
+      "instruction": "i need a blue sherpa wool sweatshirt, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B0989DND8F",
+      "attributes": [
+        "easy clean"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "blue+yellow"
+      ],
+      "index": 44,
+      "instruction": "i'm looking for a silicon exfoliating body scrubber which would be easy to use, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B087N61YT8",
+      "attributes": [
+        "keto friendly",
+        "zero sugar"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "stevia energy"
+      ],
+      "index": 302,
+      "instruction": "i'm looking for a french vanilla zero calorie and zero sugarand flavor stevia energy, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B074338PG3",
+      "attributes": [
+        "trader joe",
+        "low carb"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "pack of 9"
+      ],
+      "index": 216,
+      "instruction": "i want to find a pack of nine low-carb cheese bites from trader joe's, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B091D87QMM",
+      "attributes": [
+        "lead free"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "voyager",
+        "25+ hour"
+      ],
+      "index": 16,
+      "instruction": "i'm looking for lead free luxury scented candle which last for 25+ hours, it should be in tin voyager, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B08Z74Q2L7",
+      "attributes": [
+        "hand painted"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "nudes (gingko light)",
+        "20\"x20\""
+      ],
+      "index": 15,
+      "instruction": "i need a gingko light and 20\"x20\" pillow cover that is hand painted, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B000R30X2A",
+      "attributes": [
+        "natural ingredients"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "pacific cooler"
+      ],
+      "index": 47,
+      "instruction": "i want capri sun pacific cooler mixed fruit naturally flavored juice drinks, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B09LTWYH48",
+      "attributes": [
+        "wireless bluetooth"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "s20"
+      ],
+      "index": 111,
+      "instruction": "i need a s20 tv sound bar that comes with a wireless bluetooth speaker, and price lower than 90.00 dollars",
+      "price_upper": 90.0
+    },
+    {
+      "asin": "B09BKNLL1G",
+      "attributes": [
+        "long handle"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 119,
+      "instruction": "i want to find a loofah back scrubber with a long handle, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09MND53SQ",
+      "attributes": [
+        "storage space",
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "a type-w51\"upgrade"
+      ],
+      "index": 258,
+      "instruction": "i'm looking for led tv stand for 70 inch, and price lower than 190.00 dollars",
+      "price_upper": 190.0
+    },
+    {
+      "asin": "B07Z5H7CYX",
+      "attributes": [
+        "non gmo",
+        "fat free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "beef - original"
+      ],
+      "index": 308,
+      "instruction": "i would like to buy to some fat free non gmo original beef jerky, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B000VOHH8I",
+      "attributes": [
+        "long lasting"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "6.76 fl oz (pack of 1)"
+      ],
+      "index": 13,
+      "instruction": "i need a long lasting 6.76 fl oz bottle of l'eau d'issey, and price lower than 100.00 dollars",
+      "price_upper": 100.0
+    },
+    {
+      "asin": "B09373HTN7",
+      "attributes": [
+        "light weight"
+      ],
+      "category": "electronics",
+      "goal_options": [],
+      "index": 287,
+      "instruction": "shop for a light weight windows desktop pc, and price lower than 170.00 dollars",
+      "price_upper": 170.0
+    },
+    {
+      "asin": "B09PYFGHJH",
+      "attributes": [
+        "baby shower"
+      ],
+      "category": "grocery",
+      "goal_options": [],
+      "index": 101,
+      "instruction": "i want mivofun 11pcs cute dinosaur cake toppers for a baby shower, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B09MCYGBRZ",
+      "attributes": [
+        "birthday party"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "style a-red"
+      ],
+      "index": 366,
+      "instruction": "i want to get some red cupcake toppers that i can use for a birthday party, and price lower than 20.00 dollars",
+      "price_upper": 20.0
+    },
+    {
+      "asin": "B098DL2LS5",
+      "attributes": [
+        "fluoride free",
+        "natural ingredients"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 332,
+      "instruction": "i would like a fluoride free mouth wash made with natural ingredients, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B092VRBMN3",
+      "attributes": [
+        "elastic waist"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "medium"
+      ],
+      "index": 359,
+      "instruction": "i would like a medium sized dress with a elastic waist, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B088YWBL47",
+      "attributes": [
+        "rubber sole"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "deep brown",
+        "8"
+      ],
+      "index": 486,
+      "instruction": "i would like a deep brown clog with a rubber sole for my size 8 foot, and price lower than 110.00 dollars",
+      "price_upper": 110.0
+    },
+    {
+      "asin": "B07QWWB6FN",
+      "attributes": [
+        "water resistant"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "nomad brown（convertible）"
+      ],
+      "index": 214,
+      "instruction": "i'm looking for a pair of water resistant brown pants, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B07RLVXV5B",
+      "attributes": [
+        "compatible apple"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "a-navy blue"
+      ],
+      "index": 112,
+      "instruction": "i am looking for a headphones case that is apple compatible and is navy blue colored, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B082NLH5YJ",
+      "attributes": [
+        "baby shower"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "red"
+      ],
+      "index": 229,
+      "instruction": "i am looking for red popcorn boxes for a baby shower, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B083VZN11N",
+      "attributes": [
+        "grain free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "variety of cacao, matcha, original",
+        "6 ounce (pack of 1)"
+      ],
+      "index": 301,
+      "instruction": "i would like a 6 ounce variety of grain free cacao granola, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B09NGSLDXV",
+      "attributes": [
+        "engineered wood"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "red",
+        "90x40x45cm(35x16x18inch)"
+      ],
+      "index": 142,
+      "instruction": "i am looking for red storage benches that are made of engineered wood and are 90 by 40 by 45, and price lower than 120.00 dollars",
+      "price_upper": 120.0
+    },
+    {
+      "asin": "B085DP1X9F",
+      "attributes": [
+        "synthetic sole",
+        "memory foam"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "tan",
+        "5.5"
+      ],
+      "index": 414,
+      "instruction": "i will like to have a synthetic sole, memory foam cc corso como women's denice, size 5.5 and tan color, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B00C2LBGI0",
+      "attributes": [
+        "elastic closure"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "steel",
+        "xx-large plus"
+      ],
+      "index": 445,
+      "instruction": "i'm looking for an xx-large plus elastic closure pants for women. the color can be steel, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B06Y96MXJV",
+      "attributes": [
+        "gluten free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "vegetarian smoked",
+        "4 ounce (pack of 2)"
+      ],
+      "index": 3,
+      "instruction": "i need gluten free vegetarian smoked peppered bacon - 4 ounce (pack of 2), and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B095VX97GN",
+      "attributes": [
+        "storage case"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 388,
+      "instruction": "i'm looking for native american indian dream catcher feathers talisman, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B08HZBXBV1",
+      "attributes": [
+        "wireless charging"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "black 12 pro max"
+      ],
+      "index": 412,
+      "instruction": "i am looking for a black iphone 12 max case with wireless charging, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09DDCVDJ7",
+      "attributes": [
+        "soy wax"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "cream- french vanilla"
+      ],
+      "index": 81,
+      "instruction": "i need a french vanilla soy wax candle, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B00T7JEX44",
+      "attributes": [
+        "old fashioned",
+        "individually wrapped"
+      ],
+      "category": "grocery",
+      "goal_options": [],
+      "index": 357,
+      "instruction": "i like  traditional , old  and individually wrapped albert's chocolate ice cubes 60 count tray chocolate, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B092JLLYK6",
+      "attributes": [
+        "freeze dried"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "apple cinnamon",
+        "0.53 ounce (pack of 16)"
+      ],
+      "index": 483,
+      "instruction": "get me a sixteen pack of apple cinnamon freeze dried banana chips, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B087Q9SSPR",
+      "attributes": [
+        "natural hair"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "green-black",
+        "2 pcs"
+      ],
+      "index": 174,
+      "instruction": "i'm looking for 2 pcs detangling hair brush for natural hair. also it's color should be in green-black, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B09ST7RWVK",
+      "attributes": [
+        "hair growth"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "3pc"
+      ],
+      "index": 464,
+      "instruction": "i am looking for a hair growth treatment in the color 3pc, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B087CYM49L",
+      "attributes": [
+        "non gmo"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "classic tonic",
+        "7.5 fl oz (pack of 24)"
+      ],
+      "index": 79,
+      "instruction": "i would like to get a 24 pack of 7.5 ounce bottles of non-gmo classic tonic, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B08K2YWJ5L",
+      "attributes": [
+        "high quality"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "black"
+      ],
+      "index": 110,
+      "instruction": "i want a black and high quality cenglings womens cowl neck sweatshirt, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B000ILLX3Y",
+      "attributes": [
+        "gluten free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "3.5 ounce (pack of 6)"
+      ],
+      "index": 390,
+      "instruction": "i am looking for kernel season's popcorn season in 2.85 ounce packs of 6, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B08C7BGKF4",
+      "attributes": [
+        "sugar free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "zero ultra"
+      ],
+      "index": 172,
+      "instruction": "i am looking for a sugar free energy drink of zero ultra flavor, and price lower than 130.00 dollars",
+      "price_upper": 130.0
+    },
+    {
+      "asin": "B09NR629D2",
+      "attributes": [
+        "tempered glass"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "rose gold"
+      ],
+      "index": 490,
+      "instruction": "i am looking for a wallet case with tempered glass protection. please select the rose gold color, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B0868DCGK3",
+      "attributes": [
+        "hair styling",
+        "dry hair"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "3 pack(fine comb)"
+      ],
+      "index": 480,
+      "instruction": "i would like to buy a three pack of fine combs good for styling dry hair, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B09J8RWJ4L",
+      "attributes": [
+        "long sleeve"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "large"
+      ],
+      "index": 194,
+      "instruction": "i need a large sized coat with long sleeves, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B084Q246B2",
+      "attributes": [
+        "engineered wood"
+      ],
+      "category": "garden",
+      "goal_options": [],
+      "index": 49,
+      "instruction": "i need an engineered wood end table, and price lower than 150.00 dollars",
+      "price_upper": 150.0
+    },
+    {
+      "asin": "B07TTXZS9Z",
+      "attributes": [
+        "easy use"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "kat a kat",
+        "3.52 ounce (pack of 6)"
+      ],
+      "index": 183,
+      "instruction": "i would like a 3.52 ounce packet of kat a kat seasoning that's easy to use, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09G2GNCPF",
+      "attributes": [
+        "long sleeve",
+        "everyday wear"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "3x-large"
+      ],
+      "index": 433,
+      "instruction": "i am looking for a 3x-large long sleeved sweatshirt that is hooded for everyday wear, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B08DLL59WC",
+      "attributes": [
+        "height adjustable"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "petal green"
+      ],
+      "index": 176,
+      "instruction": "i want to find a height-adjustable desk chair in the color petal green, and price lower than 140.00 dollars",
+      "price_upper": 140.0
+    },
+    {
+      "asin": "B07G6124N1",
+      "attributes": [
+        "cupcake picks",
+        "baby shower"
+      ],
+      "category": "grocery",
+      "goal_options": [],
+      "index": 309,
+      "instruction": "i need some cute heart-shaped glittery cupcake picks as a gift to bring to a baby shower, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B003NX8C6K",
+      "attributes": [
+        "machine wash"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "red camellia",
+        "x-large plus"
+      ],
+      "index": 135,
+      "instruction": "i would like a xlarge plus red camellia fleece jacket that can be machine washed, and price lower than 120.00 dollars",
+      "price_upper": 120.0
+    },
+    {
+      "asin": "B09P9W683K",
+      "attributes": [
+        "solid wood"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "grey",
+        "nightstand"
+      ],
+      "index": 413,
+      "instruction": "i am interested in a grey solid wood nightstand, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B08Y8DB8H4",
+      "attributes": [
+        "high speed"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "purplehousing"
+      ],
+      "index": 22,
+      "instruction": "i need a highspeed hdmi cable that is purple, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B00EV815GU",
+      "attributes": [
+        "teeth whitening"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 373,
+      "instruction": "i need a natural teeth whitening toothpaste, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B09K3WM82N",
+      "attributes": [
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "faux fur white"
+      ],
+      "index": 235,
+      "instruction": "i need a faux fur white andeworld swivel barrel chair for my living room, and price lower than 310.00 dollars",
+      "price_upper": 310.0
+    },
+    {
+      "asin": "B00CWTZ8SQ",
+      "attributes": [
+        "sugar free",
+        "zero sugar"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "sugar free blue raspberry"
+      ],
+      "index": 274,
+      "instruction": "i’m looking for a large multi-pack of sweetener that contains no sugar; please pick the blue raspberry flavour, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B08SQHTMPR",
+      "attributes": [
+        "relaxed fit"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "kahuna",
+        "20 plus"
+      ],
+      "index": 63,
+      "instruction": "i am looking for a kahuna colored capri pant that has a relaxed fit and is in a size 20 plus, and price lower than 100.00 dollars",
+      "price_upper": 100.0
+    },
+    {
+      "asin": "B076RFDSBG",
+      "attributes": [
+        "hair extensions"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "wine red",
+        "8 inch (pack of 8)"
+      ],
+      "index": 193,
+      "instruction": "i'm looking for an 8-pack of 8-inch portable hair extensions. the color needs to be wine red, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B005FKMUHQ",
+      "attributes": [
+        "faux leather"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "navy linen",
+        "futon and chaise set"
+      ],
+      "index": 40,
+      "instruction": "i need a futon and chaise set that is made with faux leather. and i would prefer the navy linen color, and price lower than 120.00 dollars",
+      "price_upper": 120.0
+    },
+    {
+      "asin": "B09P4PP87G",
+      "attributes": [
+        "metal legs"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "b-gray"
+      ],
+      "index": 282,
+      "instruction": "i need a gray vanity bench with metal legs, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B016B10NAS",
+      "attributes": [
+        "hair styling"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "extra round brush 53mm"
+      ],
+      "index": 150,
+      "instruction": "i would like a extra round 53mm brush for hair styling, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B09BQMH7P7",
+      "attributes": [
+        "hair extensions"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "101"
+      ],
+      "index": 424,
+      "instruction": "i am looking for synthetic black gray 101 color hair extensions wig hairpiece, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B097QYCG3Y",
+      "attributes": [
+        "high quality"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 321,
+      "instruction": "i want a high quality nail drill machine, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B00LI3SBU4",
+      "attributes": [
+        "anti perspirant"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 316,
+      "instruction": "i want degree men anti-perspirant, and price lower than 140.00 dollars",
+      "price_upper": 140.0
+    },
+    {
+      "asin": "B09S31L7LB",
+      "attributes": [
+        "rubber outsole"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "b32 - mint green",
+        "x-large"
+      ],
+      "index": 185,
+      "instruction": "i am looking for x-large mint green snow boots that have a rubber outsole, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09LGYLN2X",
+      "attributes": [
+        "hair extensions",
+        "natural hair"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "#1 jet black",
+        "18 inch"
+      ],
+      "index": 295,
+      "instruction": "i need hair extensions of 18 inch in #1 jet black color made of natural hair, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B08Q2WDK2B",
+      "attributes": [
+        "fragrance free"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 98,
+      "instruction": "i need a fragrance free facial wash, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B07R7239Z4",
+      "attributes": [
+        "machine wash"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "small"
+      ],
+      "index": 360,
+      "instruction": "i am looking for small undershirts that i can machine wash, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B08PB2MNHY",
+      "attributes": [
+        "compatible apple"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "black red gold",
+        "38mm | 40mm | 41mm-l"
+      ],
+      "index": 35,
+      "instruction": "i am searching for a gold color smart watch bands compatible for apple and any one of the sizes 38mm | 40mm | 41mm, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B09BCFH9ZK",
+      "attributes": [
+        "machine washable"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "golden circlesan4455"
+      ],
+      "index": 23,
+      "instruction": "i'm looking for machine wasable savannan burlap placemat with compatible table runner with dahlia flower print table set of 6 pcs. also choose color golden circlesan4455 with size 13x70inch+13x19inch*4, and price lower than 70.00 dollars",
+      "price_upper": 70.0
+    },
+    {
+      "asin": "B09NZDB484",
+      "attributes": [
+        "sugar free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "salted caramel"
+      ],
+      "index": 338,
+      "instruction": "i would like some sugar free salted caramel truffles, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B0918MVYBC",
+      "attributes": [
+        "intel core"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "i5-10210u 16gb ddr4 +512g nvme ssd+wifi6"
+      ],
+      "index": 116,
+      "instruction": "i'm looking for a mini pc intel core desktop computer which supports with windows 11, and price lower than 740.00 dollars",
+      "price_upper": 740.0
+    },
+    {
+      "asin": "B09QM85QH6",
+      "attributes": [
+        "solid wood"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "white"
+      ],
+      "index": 395,
+      "instruction": "i am looking for white solid wood bunk beds with drawers, and price lower than 610.00 dollars",
+      "price_upper": 610.0
+    },
+    {
+      "asin": "B01GS1QRQK",
+      "attributes": [
+        "living room"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "grey  |  ivory",
+        "square",
+        "2 ft 2 in x 17 ft"
+      ],
+      "index": 148,
+      "instruction": "i am looking for a square area rug that is grey and ivory and measures 2 feet by 2 inch by 17 feet, and price lower than 160.00 dollars",
+      "price_upper": 160.0
+    },
+    {
+      "asin": "B07CQ96G4F",
+      "attributes": [
+        "coaxial cable",
+        "aluminum alloy"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "trishield rg11 aerial messenger - black",
+        "150ft"
+      ],
+      "index": 444,
+      "instruction": "i am looking for 150ft trishield rg11 aerial messenger - black type coaxial cable aluminum alloy, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B0851CHGVF",
+      "attributes": [
+        "bronze finish"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "stained glass"
+      ],
+      "index": 478,
+      "instruction": "i would like a stained glass wall lamp with a bronze finish, and price lower than 170.00 dollars",
+      "price_upper": 170.0
+    },
+    {
+      "asin": "B075FZMXGS",
+      "attributes": [
+        "double sided"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "salmon brown",
+        "18 x 18-inch"
+      ],
+      "index": 51,
+      "instruction": "locate the ambesonne harbour stripe throw pillow cover, 18 x 18 inch, double sided.  i want the salmon brown color, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B07N97QCX8",
+      "attributes": [
+        "low carb",
+        "non gmo",
+        "gluten free"
+      ],
+      "category": "grocery",
+      "goal_options": [
+        "vodka"
+      ],
+      "index": 447,
+      "instruction": "i'm looking for gluten free it was contain high protein and need to buy it, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B079TR2JHT",
+      "attributes": [
+        "long lasting"
+      ],
+      "category": "beauty",
+      "goal_options": [],
+      "index": 454,
+      "instruction": "men's  eau de parfum long lasting for daily use, and price lower than 130.00 dollars",
+      "price_upper": 130.0
+    },
+    {
+      "asin": "B08PJ86CJD",
+      "attributes": [
+        "anti aging"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "full collection w |  spa hairband",
+        "pack of 10"
+      ],
+      "index": 232,
+      "instruction": "i'm looking for a 10 pack of hydrating sheet masks with anti aging properties. i would like to select the spa hairband option, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09MWB5DQG",
+      "attributes": [
+        "quality polyester"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "pink",
+        "44"
+      ],
+      "index": 325,
+      "instruction": "i want to find a pink front-button bra in a size 44 that is made of quality polyester, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B09NKWML4K",
+      "attributes": [
+        "short sleeve",
+        "teen girls"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "xx-large"
+      ],
+      "index": 186,
+      "instruction": "i am looking for a short sleeve top for a teenage girl. it should in xx-large size, and price lower than 20.00 dollars",
+      "price_upper": 20.0
+    },
+    {
+      "asin": "B09FVM644T",
+      "attributes": [
+        "slim fit",
+        "long sleeve",
+        "daily wear"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "gray",
+        "x-large"
+      ],
+      "index": 83,
+      "instruction": "i need a slim fit gray colored coat that has long sleeves. it should be in x-large size, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B08V4N63K9",
+      "attributes": [
+        "super soft",
+        "fleece throw"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "blue",
+        "50\"x63\""
+      ],
+      "index": 189,
+      "instruction": "i want to get a super soft blue fleece throw that's 50 inches by 63 inches, and price lower than 40.00 dollars",
+      "price_upper": 40.0
+    },
+    {
+      "asin": "B095C1TB9H",
+      "attributes": [
+        "easy carry"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "leopard 113"
+      ],
+      "index": 181,
+      "instruction": "i need a cosmetic bag that is easy to carry and is leopard print, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B08VHM34R6",
+      "attributes": [
+        "rubber sole"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "grey | light blue",
+        "11-11.5 women | 9.5-10 men"
+      ],
+      "index": 107,
+      "instruction": "i am looking for shoes that are grey and light blue with a rubber sole in a size 11-11.5 women, and price lower than 50.00 dollars",
+      "price_upper": 50.0
+    },
+    {
+      "asin": "B09PGGRFRD",
+      "attributes": [
+        "loose fit",
+        "hand wash",
+        "short sleeve"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "army green",
+        "3x-large"
+      ],
+      "index": 343,
+      "instruction": "get me a hand washable short sleeved loose fit top in army green color and 3x-large size, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B08VJB28BL",
+      "attributes": [
+        "easy clean"
+      ],
+      "category": "garden",
+      "goal_options": [
+        "10 slots"
+      ],
+      "index": 136,
+      "instruction": "i am looking for an easy to clean jewelry box with 10 slots, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B019IOGFDY",
+      "attributes": [
+        "high speed"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "1.5 feet (10-pack)"
+      ],
+      "index": 470,
+      "instruction": "i want a hdmi cable with high speed and 1.5 feet size, and price lower than 80.00 dollars",
+      "price_upper": 80.0
+    },
+    {
+      "asin": "B09ST6VY7R",
+      "attributes": [
+        "long sleeve"
+      ],
+      "category": "fashion",
+      "goal_options": [
+        "blue#b"
+      ],
+      "index": 349,
+      "instruction": "i am looking for 2 piece long sleeve blue#b color swimwear for women. also x-large one, and price lower than 60.00 dollars",
+      "price_upper": 60.0
+    },
+    {
+      "asin": "B01LR0OOBC",
+      "attributes": [
+        "hands free"
+      ],
+      "category": "electronics",
+      "goal_options": [
+        "g6"
+      ],
+      "index": 331,
+      "instruction": "i am looking for hands free and dark blue bluetooth stereo wireless music earphones headset, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    },
+    {
+      "asin": "B001B2S32S",
+      "attributes": [
+        "hair dye"
+      ],
+      "category": "beauty",
+      "goal_options": [
+        "pack of 1",
+        "old version"
+      ],
+      "index": 36,
+      "instruction": "i'm looking for a single pack of old style, brown hair dye, and price lower than 30.00 dollars",
+      "price_upper": 30.0
+    }
+  ],
+  "goal_count": 12087,
+  "schema": "webshop_official_test_manifest_v1",
+  "seed": 42,
+  "split": "official_test_subset",
+  "subset": {
+    "environment_seed": 233,
+    "goal_order_source": "webshop/web_agent_site/envs/web_agent_text_env.py",
+    "goal_shuffle_seed": 233,
+    "human_goals": true,
+    "num_products": null,
+    "official_split_source": "webshop/baseline_models/env.py",
+    "official_test_range": [
+      0,
+      500
+    ],
+    "sampling_method": "python.random.Random(42).sample(range(500),100)",
+    "sampling_seed": 42,
+    "schema": "webshop_official_test_subset_v1",
+    "split": "test",
+    "task_indices": [
+      327,
+      57,
+      12,
+      379,
+      140,
+      125,
+      114,
+      71,
+      377,
+      52,
+      346,
+      496,
+      456,
+      279,
+      44,
+      302,
+      216,
+      16,
+      15,
+      47,
+      111,
+      119,
+      258,
+      308,
+      13,
+      287,
+      101,
+      366,
+      332,
+      359,
+      486,
+      214,
+      112,
+      229,
+      301,
+      142,
+      414,
+      445,
+      3,
+      388,
+      412,
+      81,
+      357,
+      483,
+      174,
+      464,
+      79,
+      110,
+      390,
+      172,
+      490,
+      480,
+      194,
+      49,
+      183,
+      433,
+      176,
+      309,
+      135,
+      413,
+      22,
+      373,
+      235,
+      274,
+      63,
+      193,
+      40,
+      282,
+      150,
+      424,
+      321,
+      316,
+      185,
+      295,
+      98,
+      360,
+      35,
+      23,
+      338,
+      116,
+      395,
+      148,
+      444,
+      478,
+      51,
+      447,
+      454,
+      232,
+      325,
+      186,
+      83,
+      189,
+      181,
+      107,
+      343,
+      136,
+      470,
+      349,
+      331,
+      36
+    ],
+    "upstream_repository": "https://github.com/princeton-nlp/WebShop",
+    "vendored_revision": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd"
+  },
+  "train_indices": [],
+  "train_summary": {
+    "category_counts": {},
+    "count": 0,
+    "unique_asins": 0
+  },
+  "train_tasks": [],
+  "unique_asin": false,
+  "version": 1
+}

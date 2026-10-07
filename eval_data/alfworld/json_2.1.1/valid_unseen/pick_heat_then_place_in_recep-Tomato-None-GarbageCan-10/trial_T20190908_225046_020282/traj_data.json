@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_225046_020282",
+  "task_type": "pick_heat_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Tomato",
+    "parent_target": "GarbageCan",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Heat a tomato and place in a bin. "
+      }
+    ]
+  }
+}

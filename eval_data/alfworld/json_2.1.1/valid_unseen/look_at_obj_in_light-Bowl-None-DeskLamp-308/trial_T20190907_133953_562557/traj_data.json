@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_133953_562557",
+  "task_type": "look_at_obj_in_light",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Bowl",
+    "parent_target": "",
+    "toggle_target": "DeskLamp"
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Examine the bowl by the light on the desk. "
+      }
+    ]
+  }
+}

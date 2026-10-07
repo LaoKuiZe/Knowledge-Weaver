@@ -1,0 +1,45 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*api_key*.txt
+*api_key*.json
+*.pem
+*.key
+.netrc
+
+# Environments, caches, and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+.benchmark-runtime/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.idea/
+.vscode/
+
+# Downloaded data, generated banks, model weights, and run artifacts
+/data/
+outputs/
+output/
+checkpoints/
+logs/
+wandb/
+areal_runs/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+*.jsonl
+hs_err_pid*.log
+core.[0-9]*

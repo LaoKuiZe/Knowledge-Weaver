@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_004321_405868",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "SoapBottle",
+    "parent_target": "Toilet",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Move a bottle of hand soap from the sink to the toilet."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_122154_042763",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Pencil",
+    "parent_target": "Shelf",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Move the pencil to a different area of the desk."
+      }
+    ]
+  }
+}

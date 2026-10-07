@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190906_191445_723170",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "SaltShaker",
+    "parent_target": "Cabinet",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "To acquire an odd item as place it where it is not useful."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_205246_776817",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Vase",
+    "parent_target": "Safe",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put the gold vase into the white safe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190906_191501_563086",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "SaltShaker",
+    "parent_target": "Cabinet",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Place the salt shaker in the cabinet."
+      }
+    ]
+  }
+}

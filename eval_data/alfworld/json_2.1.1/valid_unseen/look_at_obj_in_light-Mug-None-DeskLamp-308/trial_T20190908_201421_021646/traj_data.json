@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_201421_021646",
+  "task_type": "look_at_obj_in_light",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Mug",
+    "parent_target": "",
+    "toggle_target": "DeskLamp"
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Turn on the desk lamp."
+      }
+    ]
+  }
+}

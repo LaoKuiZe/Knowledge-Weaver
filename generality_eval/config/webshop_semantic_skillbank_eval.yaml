@@ -1,0 +1,59 @@
+webshop:
+  repo_root: ${WEBSHOP_REPO_ROOT}
+  products_file: ${WEBSHOP_DATA_ROOT}/items_shuffle.json
+  attributes_file: ${WEBSHOP_DATA_ROOT}/items_ins_v2.json
+  human_attributes_file: ${WEBSHOP_DATA_ROOT}/items_human_ins.json
+  search_index: ${WEBSHOP_DATA_ROOT}/search_engine/indexes
+  human_goals: true
+  num_products: null
+  environment_seed: 233
+  task_split: official_test_subset
+  observation_mode: text_rich
+  eval_task_count: 100
+  task_seed: 42
+
+actor:
+  model: Qwen/Qwen3.5-4B
+  base_url: ""
+  # Optional served-model alias; tokenizer still comes from model/tokenizer.
+  request_model: ""
+  tokenizer: ""
+  api_key_env: ACTOR_API_KEY
+  timeout_s: 120
+  temperature: 0.0
+  max_tokens: 128
+  enable_thinking: false
+  server:
+    start: true
+    reuse_existing: false
+    host: 127.0.0.1
+    port: 0
+    gpus: "0,1,2,3"
+    tp_size: 1
+    dp_size: 4
+    dtype: bfloat16
+    mem_fraction_static: 0.8
+    context_length: 16384
+    startup_timeout_s: 1800
+    extra_args: [--max-running-requests, "768"]
+
+embedding:
+  model: sentence-transformers/all-mpnet-base-v2
+  device: cpu
+  batch_size: 64
+  max_length: 256
+  cache_dir: ""
+
+evaluation:
+  top_k_values: "10"
+  seed: 1001
+  max_steps: 100
+  memory_window: 5
+  observation_char_limit: 5000
+  max_clickables: 60
+  invalid_action_retries: 1
+  success_threshold: 0.999999
+  # Threads share products and the search index; each episode has its own session.
+  rollout_workers: 512
+  episode_max_attempts: 3
+  progress_every: 25

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_125200_737896",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Mug",
+    "parent_target": "Desk",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Move a mug from the shelves to the desk."
+      }
+    ]
+  }
+}

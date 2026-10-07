@@ -1,0 +1,61 @@
+collection:
+  model: Qwen/Qwen3.5-4B
+  data_root: ${ALFWORLD_DATA_ROOT}
+  output_dir: outputs/knowledge_bank/alfworld/source_rollouts
+  pool_dir: outputs/knowledge_bank/alfworld/trace_pool
+  tasks_per_type: 20
+  seed: 13000000
+  workers: 16
+  gpus: "0"
+  tp_size: 1
+  dp_size: 1
+  port: 34080
+  base_url: "" # Set to reuse a frozen executor server instead of starting one.
+  request_model: ""
+  api_key_env: ""
+  embedding_model: sentence-transformers/all-mpnet-base-v2
+
+api:
+  backend: local_sglang # or existing_server
+  model: ${CURATOR_MODEL} # Checkpoint directory saved by training.
+  model_path: ${CURATOR_MODEL}
+  base_url: "" # existing_server: http://127.0.0.1:34180/v1
+  request_model: ""
+  api_key_env: CURATOR_API_KEY
+  timeout_seconds: 300
+  transport_retries: 2
+  concurrency: 8
+  extra_body:
+    chat_template_kwargs:
+      enable_thinking: false
+local_server:
+  host: 127.0.0.1
+  port: 34180
+  gpus: "0"
+  tp_size: 1
+  dp_size: 1
+  dtype: bfloat16
+  mem_fraction_static: 0.86
+  context_length: 32768
+  startup_timeout_seconds: 1800
+  extra_args: [--max-running-requests, "64", --disable-cuda-graph]
+sampling:
+  trajectory_pool_indices: [outputs/knowledge_bank/alfworld/trace_pool/index.json]
+  task_type_mode: all
+  num_skills: 50
+  seed: 42
+  trajectories_per_prompt: 4
+prompt:
+  trace_max_steps: 24
+  observation_char_limit: 120
+  result_char_limit: 120
+  max_skill_words: 100
+  truncate_overlong_skill: true
+generation:
+  temperature: 1.0
+  top_p: 1.0
+  max_output_tokens: 256
+  max_attempts_per_skill: 10
+  reasoning_effort: null
+output:
+  path: outputs/knowledge_bank/alfworld/all.jsonl

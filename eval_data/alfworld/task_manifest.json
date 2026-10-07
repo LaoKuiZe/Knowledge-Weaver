@@ -1,0 +1,1342 @@
+[
+  {
+    "rollout_index": 0,
+    "eval_task_index": 0,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move a mug from the shelves to the desk.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190908_125200_737896/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190908_125200_737896/traj_data.json",
+    "gamefile_sha256": "625bcf0e1abbd6db7b27bb83a0a88de33381a3a165853bf3d86ad8e1b7ca01ce",
+    "traj_json_sha256": "a58beb9830c3c980ad796e083fcef38207497ca5198348e660edc374dba2d616"
+  },
+  {
+    "rollout_index": 1,
+    "eval_task_index": 1,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "take the mug from the desk shelf to put it on the desk.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/traj_data.json",
+    "gamefile_sha256": "a3ad8b73c19178b774d73e734a35f22dd3c294c16b490590a86dc2907e508715",
+    "traj_json_sha256": "3284f6236afacf29a2de4e1563c2768c0fed1d86a14ccf756059c78d08b5b5b2"
+  },
+  {
+    "rollout_index": 2,
+    "eval_task_index": 2,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "take a coffee mug from a book shelf and place it on a desk",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_210238_431966/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_210238_431966/traj_data.json",
+    "gamefile_sha256": "98e9996c0d2439f0c7c58963a4d82dd928038a51dca63dadaa11ca41919ec366",
+    "traj_json_sha256": "f9c8584d51613008e982219a5a3dc08bd08bd90a2248e02c95c83a988de0b089"
+  },
+  {
+    "rollout_index": 3,
+    "eval_task_index": 3,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Take the pencil from the desk, put it back on the desk",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/traj_data.json",
+    "gamefile_sha256": "0b2348c4c102707a31f2e988a7f03b425c18109df99ae4dbdfc185c08d1ae5f6",
+    "traj_json_sha256": "10792f1ef0dfea696a4a0693369910a3678425ebabf2497d9d2d0f3f9a8892b2"
+  },
+  {
+    "rollout_index": 4,
+    "eval_task_index": 4,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move a pencil on the desk over. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/traj_data.json",
+    "gamefile_sha256": "8fdfe8b4374c77c15ddd89ed0a23a0a73be73ff1c4a6c0ef26ee9028e55f1753",
+    "traj_json_sha256": "7c1311e8b529063d7cf40b97f429aedbbbbb959f35b9e676cbae49d161f16402"
+  },
+  {
+    "rollout_index": 5,
+    "eval_task_index": 5,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move the pencil to a different area of the desk.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122154_042763/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122154_042763/traj_data.json",
+    "gamefile_sha256": "ce8a93e9abada6d6933c71e49a47fe5346f031ec98cd85de75e5a0acc7241c12",
+    "traj_json_sha256": "dc6c0e2b096ffd8a1c00cf7ddbef4d80373eb61bdcc5e209275fdf9bd0747867"
+  },
+  {
+    "rollout_index": 6,
+    "eval_task_index": 6,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Put a salt shaker in a drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190906_184021_215264/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190906_184021_215264/traj_data.json",
+    "gamefile_sha256": "cf741bbb6051accc96e0761a98b0814a2182a433e37ffd431f25c24c4c1d7ad2",
+    "traj_json_sha256": "c412404591df49f7fe162fa5caf3aa886f10c5f748ac7fdfe31fe2401f3231b5"
+  },
+  {
+    "rollout_index": 7,
+    "eval_task_index": 7,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "take the salt by the coffee machine, put it in the second drawer",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/traj_data.json",
+    "gamefile_sha256": "a55a31b7eae06078d0bf9ba6d513ba3594cecd43f2eab717e7c73730bab51247",
+    "traj_json_sha256": "07f4fd960c61b23006378d7f6d3758f7bbd22f9ead347b7ab0d1795a10c109ce"
+  },
+  {
+    "rollout_index": 8,
+    "eval_task_index": 8,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Place a salt shaker in a drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154424_844749/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154424_844749/traj_data.json",
+    "gamefile_sha256": "94459cf837fc638b5d415beee2d95b66f67bae14e6b5a78169d2e4d3e7a7c5fd",
+    "traj_json_sha256": "56bebea615a8cc2cebed1020570bb8f84abb0f1729100c9a2e0f64b2d4a3d984"
+  },
+  {
+    "rollout_index": 9,
+    "eval_task_index": 9,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Place the salt shaker in the cabinet beside the fridge.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191429_743650/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191429_743650/traj_data.json",
+    "gamefile_sha256": "29d132bbe83573e97c9d392e7fadcc063e99c1b504930d25a373d90973064e17",
+    "traj_json_sha256": "251c7ffa4e39fd59690d9bf45bcdb5f9ffbb7922a66fe90ba2ee025afbac6c73"
+  },
+  {
+    "rollout_index": 10,
+    "eval_task_index": 10,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "To acquire an odd item as place it where it is not useful.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191445_723170/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191445_723170/traj_data.json",
+    "gamefile_sha256": "6be71fb4b0f8f2c276b0b2865a63f6f5ebacabcdf6564a993e62eb2dd93fff5e",
+    "traj_json_sha256": "929a0ea33de219914f6667225fdf14a08c5f6711c75f1abdeae35f49aa282ac1"
+  },
+  {
+    "rollout_index": 11,
+    "eval_task_index": 11,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Place the salt shaker in the cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/traj_data.json",
+    "gamefile_sha256": "e4b721fe26274f29f68caa2a4b784ff8ce2c18ca69413013bea4392159ffb7a0",
+    "traj_json_sha256": "13023ddd2919f9706289fd025f51f9b693b131063edadb38df33c14e3c38df3d"
+  },
+  {
+    "rollout_index": 12,
+    "eval_task_index": 12,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Put a salt shaker in a drawer next to the oven.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/traj_data.json",
+    "gamefile_sha256": "1b707f1ae85f1f13cdc73e2ae03d7fbdf1f15d66ad9d7957f03329082db475bf",
+    "traj_json_sha256": "90c64d7122b4763246b3ed9f2f16e9dce31b5199d6c9d222b9f656074521b65b"
+  },
+  {
+    "rollout_index": 13,
+    "eval_task_index": 13,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "place a salt shaker in one of the pullout drawers",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021650_880235/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021650_880235/traj_data.json",
+    "gamefile_sha256": "4fceb445495e9d27558b2d9d1e85167ea0699d57f86e960333bfa08d236d126e",
+    "traj_json_sha256": "f52c3c63a963002dd79eb4f74ab6eacde64584b504669f9a2b2a747ac619444f"
+  },
+  {
+    "rollout_index": 14,
+    "eval_task_index": 14,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "move salt shaker from counter to drawer",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/traj_data.json",
+    "gamefile_sha256": "1f16ba136988bc8cd46f53607333d7c5b6a312f2bec9a4389aa44e85a32172c9",
+    "traj_json_sha256": "6a523ec174f8347939b1845a9bc808b7fdaefa7567e47fa8c68e952c799f4d35"
+  },
+  {
+    "rollout_index": 15,
+    "eval_task_index": 15,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move a bottle of hand soap from the sink to the toilet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004321_405868/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004321_405868/traj_data.json",
+    "gamefile_sha256": "9d6f1d79fb017bad469bef2c85090ca8b70d37c3e4185e50851246a5ca23f1fe",
+    "traj_json_sha256": "ff49fd74eb67356aa9c6a5f1be4cbece81de01442842bcf0162e2ef3199c365a"
+  },
+  {
+    "rollout_index": 16,
+    "eval_task_index": 16,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Place the green bottle on the toilet baisin.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004351_281384/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004351_281384/traj_data.json",
+    "gamefile_sha256": "d4c098de3cfe806c9a58464d5b8701005187205503368a9b762e05ed7f955249",
+    "traj_json_sha256": "54c4f5da851412e9be7327faa0ee8c71e2cab6e40698ce018d6bb6b44cfb518b"
+  },
+  {
+    "rollout_index": 17,
+    "eval_task_index": 17,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "place a soap dispenser on top of the toilet",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/traj_data.json",
+    "gamefile_sha256": "edb01197b374527cd22c1251311a1b308771b138bd9869f0db03c46c7414adea",
+    "traj_json_sha256": "c832d8c5fdc5a64dd43131170708c776511e5f152b9287419bb1f5119bdc7bbf"
+  },
+  {
+    "rollout_index": 18,
+    "eval_task_index": 18,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Put a vase in a safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json",
+    "gamefile_sha256": "4d7a847ba7f2ef190a9465eb79d9bc7c371450f782bc2f1e01fcf56adce14f44",
+    "traj_json_sha256": "394f7dd9e970dbb4336332b40d5e52518ca29b9884ae41f33383bfd74bd3f63f"
+  },
+  {
+    "rollout_index": 19,
+    "eval_task_index": 19,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Put a vase in a safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/traj_data.json",
+    "gamefile_sha256": "cfece370abf5b24b89105d301c72ca3864c5ff1f555954b3a282ff468e06da0a",
+    "traj_json_sha256": "9a189a1b8224ff999ea9c5a3a0e773840828bbb69c2fb3850df97a1c1cc0e995"
+  },
+  {
+    "rollout_index": 20,
+    "eval_task_index": 20,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Put the gold vase into the white safe",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/traj_data.json",
+    "gamefile_sha256": "6f2ef1752fe4e37c8c2a0d9c20b4183dc63bdc8e04eaef6bf1fdae7bf9566aa0",
+    "traj_json_sha256": "299e2874226aa4b91f2d47d07c4ad3064c752a877d68acc17436ce35059eac1a"
+  },
+  {
+    "rollout_index": 21,
+    "eval_task_index": 21,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move a watch to the inside of a small safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/traj_data.json",
+    "gamefile_sha256": "3e2c63c0c3fb55d047997b368dd706a938253e6d73948dac48fa0e3254387e00",
+    "traj_json_sha256": "3b1de7b12d32de417d9702551747b4f4fab68123197c082c3012ec09bed6148b"
+  },
+  {
+    "rollout_index": 22,
+    "eval_task_index": 22,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Move the watch from the cabinet to the safe",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074556_124850/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074556_124850/traj_data.json",
+    "gamefile_sha256": "ddcd55d0026846ce8660748962a78e71362bf24f8113d729fefa52c50543d42c",
+    "traj_json_sha256": "e7bdd23dd491ba19cd14ed93ca78dcbaea84cceee01ecc500f8144a678e24e82"
+  },
+  {
+    "rollout_index": 23,
+    "eval_task_index": 23,
+    "task_type": "pick_and_place_simple",
+    "task_desc": "Place a watch inside a safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/traj_data.json",
+    "gamefile_sha256": "959236516d49ef5075a20324e12cc1ac4c5e9440eb9e9b6d64ffe92bfd0de138",
+    "traj_json_sha256": "70c82dd0dde38c22741d08baeb94ad79fcbb99fe953bfb3ad4e34ea71879a10c"
+  },
+  {
+    "rollout_index": 24,
+    "eval_task_index": 0,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Hold the clock and turn on the lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/traj_data.json",
+    "gamefile_sha256": "debf644284b20d488820b0b59c44d24c42d208cd99b2b25c01105e6bf6668859",
+    "traj_json_sha256": "dd38159fbe0f86cffa53e3d7f73c1badef7846d9f05e448b2165aae6c40ad1f2"
+  },
+  {
+    "rollout_index": 25,
+    "eval_task_index": 1,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Examine the alarm clock by the light",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222933_607649/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222933_607649/traj_data.json",
+    "gamefile_sha256": "b7d347141ccbf56c2a8e6746fde25a5364caf5c285834939466ea811bb166bff",
+    "traj_json_sha256": "670fe212a02891322e4309496e924f658040e2a17427b38f5001411f315b6b77"
+  },
+  {
+    "rollout_index": 26,
+    "eval_task_index": 2,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Turn on a lamp with a metal box. ",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222951_616606/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222951_616606/traj_data.json",
+    "gamefile_sha256": "acd1abe32e91175c96f244bb0e7d9430735a8b530c96882b7834ed882d16f8d4",
+    "traj_json_sha256": "e36c64f4e5b254be7dc03fb613b0e3cccb134c9b028ca30929e672ed0d49d522"
+  },
+  {
+    "rollout_index": 27,
+    "eval_task_index": 3,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Look at a book by the light of a lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020029_636862/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020029_636862/traj_data.json",
+    "gamefile_sha256": "17fa4bb7f6f5f59576678c69b4ddc39198b7580d2a3af3c53f4e8a6e359d919a",
+    "traj_json_sha256": "fb60db7a3565774c0669e36b0dda98aff4ea9649bf3471a4ce663e2cdda2aaf7"
+  },
+  {
+    "rollout_index": 28,
+    "eval_task_index": 4,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Picking up a book and turning on a light to read it by",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020048_814402/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020048_814402/traj_data.json",
+    "gamefile_sha256": "9b1cd0ebcfe117a7cf293bdaf30680a2cfe1a45f8de1c7871b7d573c9067d8c7",
+    "traj_json_sha256": "1a0f969020298386e775c1752640934e885d8051492d30e3763e2d11ccace0c5"
+  },
+  {
+    "rollout_index": 29,
+    "eval_task_index": 5,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Turn on the table lamp to read the book.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/traj_data.json",
+    "gamefile_sha256": "3d2dc40d07c73dfa6d3660048d3db5bdd66c9b63cc4105e88e16eb5d03f4a10c",
+    "traj_json_sha256": "97646d48a73fe8dcdfccd3a4326d456118d58951ecb30aa58bed2e1da8244487"
+  },
+  {
+    "rollout_index": 30,
+    "eval_task_index": 6,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "turn on a lamp while holding a bowl",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133919_856963/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133919_856963/traj_data.json",
+    "gamefile_sha256": "907379027da22980557b1197ec84c44d89fbcf906bc7809004a4533e8ee4c109",
+    "traj_json_sha256": "c842609ebd4c763743a6cea4b98c8e30404bfadf93659fa5bab18e044987a9c6"
+  },
+  {
+    "rollout_index": 31,
+    "eval_task_index": 7,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Examine a bowl by the light of a desk lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/traj_data.json",
+    "gamefile_sha256": "61268b6811bd8c54cc9c6afe66a3a1b4f0c0c85956a7cfb1514217ae55615570",
+    "traj_json_sha256": "e54ab0445e9926a0fd96bdf92f12dcd61dab06a1e8305d0ea635edb2a83880fa"
+  },
+  {
+    "rollout_index": 32,
+    "eval_task_index": 8,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Examine the bowl by the light on the desk. ",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133953_562557/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133953_562557/traj_data.json",
+    "gamefile_sha256": "8e99f9c263489febcc14f0559e8ff47d5f32977be497410a264fc8fb089f3b1b",
+    "traj_json_sha256": "c9a3f847efcaaa1f2b324c34ced9d0119570a54407ddf476e9dc41b4a10a2c48"
+  },
+  {
+    "rollout_index": 33,
+    "eval_task_index": 9,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "examine a CD with a lamp",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052/traj_data.json",
+    "gamefile_sha256": "2abfd34d42236de6f1930c299ffb8e69a6c6af09da48edde3aa6e73db56e9bfa",
+    "traj_json_sha256": "cf0c10a7e04aee6d4eb2ff0b01359424365a8f4e32962710e9e0104b23e62667"
+  },
+  {
+    "rollout_index": 34,
+    "eval_task_index": 10,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Turn on the desk lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/traj_data.json",
+    "gamefile_sha256": "8747b74360786305aa3b4aa5dd6c94e88ee27c83d9d94e33c821ae4f88309845",
+    "traj_json_sha256": "f7daa620b8ad53342e4d9ecd002806a5906baf7a49b9cd731afacdf13997a73c"
+  },
+  {
+    "rollout_index": 35,
+    "eval_task_index": 11,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Look at a CD under a lamp's light.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/traj_data.json",
+    "gamefile_sha256": "f3236cb3d2d668d8aad8e4674f97458eaabd8bc1e4271c755e54cd47d60164de",
+    "traj_json_sha256": "a6140eb6c0c1abd04a4da78571916acc1cef29c2d0b256c19f1146ac47b96853"
+  },
+  {
+    "rollout_index": 36,
+    "eval_task_index": 12,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Look at a mug in lamp light.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/traj_data.json",
+    "gamefile_sha256": "356e5f8b0c7fdcf146f2bf0d3c7947ca7489ed098fbd8c2da57a64a0af4ac650",
+    "traj_json_sha256": "64ae222b71d69cf5c031318cac5bd3fcf807117e584d731464f4581b6d131af2"
+  },
+  {
+    "rollout_index": 37,
+    "eval_task_index": 13,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Turn on the desk lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/traj_data.json",
+    "gamefile_sha256": "e6bebd16f7fbf7e9ad973ccfde12feda4ac96984eedc357caff1ec7c0e97f3f3",
+    "traj_json_sha256": "58cb1b50636be1fda02fd78b8ac0664348f25f2f93727ffb78428006e7d201fd"
+  },
+  {
+    "rollout_index": 38,
+    "eval_task_index": 14,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Examine a mug using the light of a desk lamp. ",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/traj_data.json",
+    "gamefile_sha256": "e03ee9d5ca24fd967be9c8350c31c44df3da17ebdc7f89789ee6be4327f5d166",
+    "traj_json_sha256": "fcdc8f5213af25aca54b50b8895b7f18dbd08e0fa47adcf11f6714d53ba11c73"
+  },
+  {
+    "rollout_index": 39,
+    "eval_task_index": 15,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Examine a pencil under a lamp.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220545_153480/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220545_153480/traj_data.json",
+    "gamefile_sha256": "efb195607182cd30a5dde1c9e82229fdde1ada22a00ce1eae9d4328da27d8295",
+    "traj_json_sha256": "5a3c8526be1e7aa3b7d8a4a84c38e0e7417fef35da2707b2ac6fed8162ca3f1f"
+  },
+  {
+    "rollout_index": 40,
+    "eval_task_index": 16,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "look at the pencil under the lamp",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/traj_data.json",
+    "gamefile_sha256": "2afa7c7266ce0890b824a09d78a5526db0a2e9ef81b232a748d838fd54e6d134",
+    "traj_json_sha256": "bab9d1c3856c5f5803cdf17b129754bdcab255b20e8f465d0cdcd8642b0fca6d"
+  },
+  {
+    "rollout_index": 41,
+    "eval_task_index": 17,
+    "task_type": "look_at_obj_in_light",
+    "task_desc": "Pick a pencil up and turn the lamp on.",
+    "gamefile": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220656_510400/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220656_510400/traj_data.json",
+    "gamefile_sha256": "86bf7ead13e680e8487d168b7cabf7174afdd055c33dd569367f965a3e13fd68",
+    "traj_json_sha256": "7f4dcb3498f96eb9bc72f62f2dcb9c83a3e743672b73ad9c1d4d83d02cb0d60b"
+  },
+  {
+    "rollout_index": 42,
+    "eval_task_index": 0,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put the cooked green apple in the fridge",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/traj_data.json",
+    "gamefile_sha256": "cde8a53188a3e68b9bdcc6867f7696230cd9d1c0a6c6bd1bccca48009e87222b",
+    "traj_json_sha256": "59a556b8a060ed9f3396a5f633a0a7f3891e16b4b9d992f696c738f625fa6125"
+  },
+  {
+    "rollout_index": 43,
+    "eval_task_index": 1,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Place a microwaved apple in the fridge.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140/traj_data.json",
+    "gamefile_sha256": "523719a4307f5963100d98d33df8df9ee90d1fdd1f7a4f913b04f597424f701f",
+    "traj_json_sha256": "b63a97e1ebed04580d8660859c073a0ded9ea6dfe2378a59f27c35e3f9b81de8"
+  },
+  {
+    "rollout_index": 44,
+    "eval_task_index": 2,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put a heated apple next to the lettuce on the middle shelf in the refrigerator.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538/traj_data.json",
+    "gamefile_sha256": "f317e6d0ac75dd61d070c7f87a4872fc331a039af72a432f3b05bccd8a983072",
+    "traj_json_sha256": "7be4506b9f587cf3394a32e1a98031b1dc80d51987f2d5b97c639282751b4e45"
+  },
+  {
+    "rollout_index": 45,
+    "eval_task_index": 3,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "place a microwaved apple inside the garbage bin",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/traj_data.json",
+    "gamefile_sha256": "91a1406c2d5eee3981aae8dde915958d8e8d04f2485e37d0ecacfdf1712c81c1",
+    "traj_json_sha256": "8fb641a2f6a48ff85911b1d2ef6a8c65264f57b0467ca367d2e815bd19b25824"
+  },
+  {
+    "rollout_index": 46,
+    "eval_task_index": 4,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put a warmed up apple in the trash can.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145143_820541/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145143_820541/traj_data.json",
+    "gamefile_sha256": "4bed09da3ca5a6f8ecf56c02734477652453826a703768e0681346db568bf429",
+    "traj_json_sha256": "c1c1a1af4feb5741fc746662d062891e5c84918542ea633ae5aedab3b7846ff3"
+  },
+  {
+    "rollout_index": 47,
+    "eval_task_index": 5,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put in the heated apple in the trash bin",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/traj_data.json",
+    "gamefile_sha256": "627572f14fca2c34fc4cae14b22dad5618282cc81ceb38f79e712390cd6c65fc",
+    "traj_json_sha256": "64998ae7f7683d145f964b0c337ae9590726ef18ed8fd3a00ad8a41f3b2f8f2c"
+  },
+  {
+    "rollout_index": 48,
+    "eval_task_index": 6,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Warm up the cup inside the cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083346_800823/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083346_800823/traj_data.json",
+    "gamefile_sha256": "92357ec30eb792f0f57e25ea7b80d91a5c55fdedc7908ab46644e478fb33abdb",
+    "traj_json_sha256": "a491a3c36635f99a3f782e4ca8fc7c0640cf12ef89fb63fd7cc439e835971400"
+  },
+  {
+    "rollout_index": 49,
+    "eval_task_index": 7,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Place a heated cup in a cabinet",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083429_887065/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083429_887065/traj_data.json",
+    "gamefile_sha256": "9b66974e7183f74b4553f017f44699690cf5425890bbbcd5eed957220a9a8c3c",
+    "traj_json_sha256": "3c0d8401ed0bc7b443b81fc9ca80f905f6078cb166ff070919998663c0177eb1"
+  },
+  {
+    "rollout_index": 50,
+    "eval_task_index": 8,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put a warm cup in the cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820/traj_data.json",
+    "gamefile_sha256": "8edb31c52c9cfe2ba415a2c05ad7541b1f0f3e1c2409b7417f090248d46f8e33",
+    "traj_json_sha256": "c46e3dbba45d72256c0b63b4d9aace914d1552b3d5278c62dadf6ec933b2186b"
+  },
+  {
+    "rollout_index": 51,
+    "eval_task_index": 9,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Place a heated egg in a bin",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113432_673307/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113432_673307/traj_data.json",
+    "gamefile_sha256": "4c52ff248683a743ba07ad8571174ac574764a90636d8b850d24b2ccf04733c7",
+    "traj_json_sha256": "ffca80424e9e9a7eb9a777c7ccc268031122d5c78d3cc9feac787e984c840045"
+  },
+  {
+    "rollout_index": 52,
+    "eval_task_index": 10,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "place a microwaved egg inside the garbage bin",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/traj_data.json",
+    "gamefile_sha256": "3cf3c37d8dab940bcff6b988715e08f0148f0406705b417c0ac72e506e31ec8d",
+    "traj_json_sha256": "f682695059b12bf5efd2ead25a5f56fc697ca50f24a53bc5d7819eb7a2508cf9"
+  },
+  {
+    "rollout_index": 53,
+    "eval_task_index": 11,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "To heat an egg and place it inside the black bin. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142/traj_data.json",
+    "gamefile_sha256": "8a4cb55dc35220203a9454192803170cedccc2bd9325c3f1e0bfeb3014eb28a9",
+    "traj_json_sha256": "26e68fc687a88f3d6259c575b884811bf42e290c5d860520178898ee030ef0e7"
+  },
+  {
+    "rollout_index": 54,
+    "eval_task_index": 12,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Place a heated mug in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021100_341887/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021100_341887/traj_data.json",
+    "gamefile_sha256": "b569b5dbb1332e41f981305754867b5db8e7978e3bac697061c8c0082bd69510",
+    "traj_json_sha256": "475adbffbbcfe0db7bbeb644b8b6ff120d950a12b5e39c864cdcbfd217e69175"
+  },
+  {
+    "rollout_index": 55,
+    "eval_task_index": 13,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put a warmed mug in the cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021200_669381/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021200_669381/traj_data.json",
+    "gamefile_sha256": "4af43c5743ef9bf4eb38e9d29b8bc61deb61a448379b9f2225841ab47e300bf3",
+    "traj_json_sha256": "6c973b458dec55881e38a4198546a99e017505b84c5b0c5f194f64cc38e60e6c"
+  },
+  {
+    "rollout_index": 56,
+    "eval_task_index": 14,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "heat up coffee in a mug and put it away inside the cabinet door",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/traj_data.json",
+    "gamefile_sha256": "6fcbdac2581b29b38b3d441c42fe69ed614a02f3ff3f2230069a078294bff442",
+    "traj_json_sha256": "cbe3562049d1e76e490c74da7091670276671842362ccdad4456548c77d97fa5"
+  },
+  {
+    "rollout_index": 57,
+    "eval_task_index": 15,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Place a warmed mug in a coffee machine.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171806_406231/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171806_406231/traj_data.json",
+    "gamefile_sha256": "75032b3e0ffeb353be21a5c1f141e8c6de54e4562b3d5c06775464b1f771fd15",
+    "traj_json_sha256": "a0eb67c76c930b3880d1fef628d9efe182b26efd8adf6b972782c7b5fd072d55"
+  },
+  {
+    "rollout_index": 58,
+    "eval_task_index": 16,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put the warm mug on the coffee maker",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171850_960211/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171850_960211/traj_data.json",
+    "gamefile_sha256": "799fb7dc0adbc8311c57bd376d5e1101564b4cc1a1f41690964bda8fd7a05714",
+    "traj_json_sha256": "a09e50c777ad9a8ed776981191c3fd90cea084d4012a22c64edcb32ed3ecef6a"
+  },
+  {
+    "rollout_index": 59,
+    "eval_task_index": 17,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Move a heated mug to the base of the coffee maker.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922/traj_data.json",
+    "gamefile_sha256": "6fe7e3977b4f0258111554e9af6c44ca8cb8300def14ac99e0a0f0210fc6521f",
+    "traj_json_sha256": "80412250bc9eef5ed25dbebbca5a3ffec7faac1ad4ae0d08bda00adc1d5fb624"
+  },
+  {
+    "rollout_index": 60,
+    "eval_task_index": 18,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Heat up a potato and put it in the trash.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033/traj_data.json",
+    "gamefile_sha256": "52f8148252af89a92ee106f2a16640c72e584e90d4afd0513fdbedc3f15beb11",
+    "traj_json_sha256": "f5aa46dc3a42654e309ab28ca815ad238910e04945ad22c6f917b1a866c87449"
+  },
+  {
+    "rollout_index": 61,
+    "eval_task_index": 19,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Put a cooked potato in the garbage can. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161853_945788/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161853_945788/traj_data.json",
+    "gamefile_sha256": "1597e6e213e1fb213e36451851b3fc91a68ea09879001a51a0912c8e61a649b5",
+    "traj_json_sha256": "11d396694672a9712a436a5920099c25c2dda975f61735ec3bd86bd93284ecef"
+  },
+  {
+    "rollout_index": 62,
+    "eval_task_index": 20,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Heat a tomato and place in a bin. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/traj_data.json",
+    "gamefile_sha256": "729e21d96156592822736e691a4efd7e48a54974aaf6cabef096662cd89d2c5b",
+    "traj_json_sha256": "1510b642092325916ca99ceb41f3da063fbde0403c20720e88316eb3c0faffa3"
+  },
+  {
+    "rollout_index": 63,
+    "eval_task_index": 21,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Heat a tomato and place in the bin. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225359_617900/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225359_617900/traj_data.json",
+    "gamefile_sha256": "55ed6d48f50f8761989d38330a2997e8de082422352776738b670a3e074a19dd",
+    "traj_json_sha256": "3eb1703264ff4b2ee40026f74b60a8e9096a456d043983e6ddd710ff9d65ae13"
+  },
+  {
+    "rollout_index": 64,
+    "eval_task_index": 22,
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_desc": "Heat a tomato and throw it away.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/traj_data.json",
+    "gamefile_sha256": "ebe511c11689cf1ebf2048ab7b59a4162ccfa4ec51aa2ebcf5c83c6126b0a42e",
+    "traj_json_sha256": "c66649d0d6effc24e92da18bcf20292e4ddbf7a4e0ddbc7e9b54606886ef1d0a"
+  },
+  {
+    "rollout_index": 65,
+    "eval_task_index": 0,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Secure two discs in a bedroom safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_050942_897916/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_050942_897916/traj_data.json",
+    "gamefile_sha256": "4a6408a7224428806d010708d6c9809eb6639e91853789e458a8faf790495aa0",
+    "traj_json_sha256": "4685a1fc3f910dc8490ce93241ceda71b931501e194586b23ab7b448eb96d256"
+  },
+  {
+    "rollout_index": 66,
+    "eval_task_index": 1,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Transfer the two CDs from the desk to the vault.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/traj_data.json",
+    "gamefile_sha256": "f35ec50fd8906b332ceb50515ae1cb09f6f151cdfa72ee16b054ee7e6bb0e953",
+    "traj_json_sha256": "10b1e6373701b444fbb6c40a9e5567fce9bd4986d62303bb73473e414995db85"
+  },
+  {
+    "rollout_index": 67,
+    "eval_task_index": 2,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put the two disks from the desk into the safe.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/traj_data.json",
+    "gamefile_sha256": "8058082e119d3b4e92e128241330bdc6718d493e1f751521e84d1a3b65b862f6",
+    "traj_json_sha256": "cb5bc8da8c1ab237af1af2318fc7228763f320a63823c999529c4bc8da21caec"
+  },
+  {
+    "rollout_index": 68,
+    "eval_task_index": 3,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "put two sets of keys inside safe",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_011803_423115/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_011803_423115/traj_data.json",
+    "gamefile_sha256": "f0e4f825c940331f5d29fe9193ead4fafe9126c1746f19e33fddaf54ef48a132",
+    "traj_json_sha256": "a46296c7470d9cc06b5d37dfac470d7621152366c9247b1743fd990b7b1f8151"
+  },
+  {
+    "rollout_index": 69,
+    "eval_task_index": 4,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two sets of keys in the safe. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/traj_data.json",
+    "gamefile_sha256": "4e1996c9adcfeb4fde96b3aff592ab306010b021d54e56196e4aba1d01701478",
+    "traj_json_sha256": "319753888f2a304c331f024fe2245a3b0894c7d5b29529e1206cef7aca4d8fc4"
+  },
+  {
+    "rollout_index": 70,
+    "eval_task_index": 5,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two shakers in a drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190908_010306_215435/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190908_010306_215435/traj_data.json",
+    "gamefile_sha256": "f6fedb42796fd63deb8c1e205dd04a23c5c728d09d00b7f595a877de0a6a9f23",
+    "traj_json_sha256": "cd53b721b32735dfbf7c5a4f6a06d1a4257540d43fa1b70009b4a2821a2857f8"
+  },
+  {
+    "rollout_index": 71,
+    "eval_task_index": 6,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Place two salt shakers in a drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221016_460197/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221016_460197/traj_data.json",
+    "gamefile_sha256": "0622d63dfac2848786c9751cb9f60b7b9996a5474430d04e7c2b4421a7463f0c",
+    "traj_json_sha256": "b9c3e5d5fd4438125202cca220319dfb2980eacc51e3e1f9303c8476a341c74b"
+  },
+  {
+    "rollout_index": 72,
+    "eval_task_index": 7,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Place two salt shakers in the drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/traj_data.json",
+    "gamefile_sha256": "7954e62bf7e14e8817e5332ead174d63b03f87520fcbca7dadee4b7a97cf6122",
+    "traj_json_sha256": "fdfe179e56885a8480a343cd78d1f278d259718eb3e063037ac3b8086ec353bf"
+  },
+  {
+    "rollout_index": 73,
+    "eval_task_index": 8,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two pillows on the sofa.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855/traj_data.json",
+    "gamefile_sha256": "b058ee535cc42d942de08a34187cb534964dc68c6994c549844d88df0116aff5",
+    "traj_json_sha256": "63d41bfaf47c1d24ca4aa1aa4779c7dc8c2a494a3fd6bcac2aab850be3583e5f"
+  },
+  {
+    "rollout_index": 74,
+    "eval_task_index": 9,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two pillows on the couch.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/traj_data.json",
+    "gamefile_sha256": "aa6492996150d3c8d2a048806d6bf817c14016d0867ac120a8e130af7f52db55",
+    "traj_json_sha256": "6b3e5c07b3bed4e5c9866a687a6120d9a3d03750966090d47be791e3b03f3bdd"
+  },
+  {
+    "rollout_index": 75,
+    "eval_task_index": 10,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two pillows on the sofa.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163408_914117/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163408_914117/traj_data.json",
+    "gamefile_sha256": "624b0d047945b9a42fec0a4d004165c2983f73652725f3f50ccb9d26131f8ddc",
+    "traj_json_sha256": "938981b92d055aecbb33713cc4dc731633d9b03bbc99601283a95e95451b3560"
+  },
+  {
+    "rollout_index": 76,
+    "eval_task_index": 11,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put two bars of soap in the cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081720_491733/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081720_491733/traj_data.json",
+    "gamefile_sha256": "39cbd19ebca046db4ee9be580290f954c4b7b958f0e1df05b635959ead7aacfa",
+    "traj_json_sha256": "f2c7947a969c28257182b612f5b72ca1e1ebb47d4f6b22cd24ca66511fc1f272"
+  },
+  {
+    "rollout_index": 77,
+    "eval_task_index": 12,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "To move two bars of soap to the cabinet. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594/traj_data.json",
+    "gamefile_sha256": "6d09a37c6a2af52e3720d08da278dd3b72755590b97cda4d3694a3ebb53357e5",
+    "traj_json_sha256": "32b5811014095b2f7f21d8ed0a99a3b955e1ff2f5c905347b6b8520ae747fe98"
+  },
+  {
+    "rollout_index": 78,
+    "eval_task_index": 13,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Throw two bars of soap in the trash bin.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064053_839817/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064053_839817/traj_data.json",
+    "gamefile_sha256": "fa67ae1eef1c930333af44fb94b72a329b20edabdc154d5fc5774af00e10f62b",
+    "traj_json_sha256": "50e30d701c4aa4f9dbbaa21068af4a2a5fc434bed9e1b9285b61a49c58c80cfc"
+  },
+  {
+    "rollout_index": 79,
+    "eval_task_index": 14,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "To move two bars of soap to the gold bin. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064221_368939/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064221_368939/traj_data.json",
+    "gamefile_sha256": "5cd4c51c650ab9bb82965afca5dc6b18f98c1b2e0b6af86ceb9f675c10e9d7ae",
+    "traj_json_sha256": "16c0fc01b2d0753349778cede4eb2c6c4b4fa346ed7ebb5a5d6f6cce5854b647"
+  },
+  {
+    "rollout_index": 80,
+    "eval_task_index": 15,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Throw both pieces of soap into the trash can.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168/traj_data.json",
+    "gamefile_sha256": "a3bcb45fa205a62b84dceaae288625ca8a1d7cb82193547a695b34a42bbdd88f",
+    "traj_json_sha256": "4f0cc370d544377303d134fa58c57e3d1715e682ace89b5a80a03a8f89ece0f6"
+  },
+  {
+    "rollout_index": 81,
+    "eval_task_index": 16,
+    "task_type": "pick_two_obj_and_place",
+    "task_desc": "Put toilet paper rolls in a cabinet under the sink.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/traj_data.json",
+    "gamefile_sha256": "b97ee4b6abe12bdaa448ed2495b6877bc0bc2b907caed0dd6bc00e74ea54b71d",
+    "traj_json_sha256": "07ef79d220f99a333b93340bb83fe26b3421565a4e1d173c1aae477e21fb91b8"
+  },
+  {
+    "rollout_index": 82,
+    "eval_task_index": 0,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a washed bowl away in a kitchen cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061130_844814/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061130_844814/traj_data.json",
+    "gamefile_sha256": "97c6ed5088ec3235a8924687cdd7377e16990f4ba215cc3d27fcd7af2be52adb",
+    "traj_json_sha256": "f9828f47afa79df9d584b37287daad86a684245a3f325eb532a9ec5ae5fd3ee5"
+  },
+  {
+    "rollout_index": 83,
+    "eval_task_index": 1,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a filled bowl of water in the cabinet left of the microwave.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/traj_data.json",
+    "gamefile_sha256": "1c774dcf5623079489d3a80ccb4d260cafeb684425413ba4ff875fa32552b00e",
+    "traj_json_sha256": "521e47c427f1e199388543c4395ad4f0a81b1ce8df95a6ff69a06b4c583766a3"
+  },
+  {
+    "rollout_index": 84,
+    "eval_task_index": 2,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Place a washed bowl in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061232_368489/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061232_368489/traj_data.json",
+    "gamefile_sha256": "316810b692de200367e11c02d8dd7598480464762511b871a278e29b19c8b5e2",
+    "traj_json_sha256": "936267bbd1935148b1ef25ce1ae77e1a1d09bac33e930dc7b8a71ce39ac1a717"
+  },
+  {
+    "rollout_index": 85,
+    "eval_task_index": 3,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a cleaned blue cloth in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/traj_data.json",
+    "gamefile_sha256": "505e6afa6c1f55ff68638f69427874cf7c911c6d5a603015ed6ede3b5c2bed1f",
+    "traj_json_sha256": "c36bd371b61f238c6cc7b6f844a94b02aece4e11044940f56cb44dbf0951c8ee"
+  },
+  {
+    "rollout_index": 86,
+    "eval_task_index": 4,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "wash the cloth from the cabinet, put it back",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995/traj_data.json",
+    "gamefile_sha256": "ee1ada4e5d151693e80a7e5e85c98ea967fca861f9118d60c76882b12e82ee70",
+    "traj_json_sha256": "2117a57434df61c45273857f5f749d5dc46579a0377f7d5b50555469e64b4541"
+  },
+  {
+    "rollout_index": 87,
+    "eval_task_index": 5,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean wash cloth on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757/traj_data.json",
+    "gamefile_sha256": "8d9dbd50729c155286c2c09dd00c7fc9d128776cd86a9676514dc5ee16a71851",
+    "traj_json_sha256": "bcefc5749c1d1cafee4c2e6f3e2c86e1e9c0738fdd25ea9ccd0e69437841927e"
+  },
+  {
+    "rollout_index": 88,
+    "eval_task_index": 6,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Place a clean rag on a counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json",
+    "gamefile_sha256": "42896a9bf6146efba08010d0721c0b43e99a9cd49e922033602531dece8d3a41",
+    "traj_json_sha256": "75d53a329a9423dc946961fc58b06df1c576c3e025fa1172614224e7356a0d88"
+  },
+  {
+    "rollout_index": 89,
+    "eval_task_index": 7,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean egg in the microwave.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709/traj_data.json",
+    "gamefile_sha256": "26ebd12f5972aff6dffed16e560ed8a8abdb6a7f832ba94305a2f10aacc717fc",
+    "traj_json_sha256": "86582f42650b4eafa6c3de1709a67fbc9d8485ae32cae7b7b7251b2bf6332a52"
+  },
+  {
+    "rollout_index": 90,
+    "eval_task_index": 8,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a washed egg in a microwave.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361/traj_data.json",
+    "gamefile_sha256": "063ea0d60a2f53b3772b8b36e12fbfa879d7af27c6b8a3f6609f4c596ff15f5c",
+    "traj_json_sha256": "5b55a24fa72d39910ddb07f34cd0608327a0ad33dfc62ffccd48bb218b013bfb"
+  },
+  {
+    "rollout_index": 91,
+    "eval_task_index": 9,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean egg in the microwave.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/traj_data.json",
+    "gamefile_sha256": "ff294d1acfc0cddee2e82786b11aed57e552097410c35a57394263b668c41d56",
+    "traj_json_sha256": "0b51700a8a0b835dabda04cbe3e34b29d80bdbaf2f344ff32bc6ff8cabc672c4"
+  },
+  {
+    "rollout_index": 92,
+    "eval_task_index": 10,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "put a knife in the sink before standing it on the counter",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110347_624008/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110347_624008/traj_data.json",
+    "gamefile_sha256": "18599591f69edca094e322cb77807a4a96ebe24b675151d2b4f240aa7b37de67",
+    "traj_json_sha256": "0bf6ba7cbc5ff990d9ebc355fd44db6e2362e3494da8808cf54f1c8e692d28a2"
+  },
+  {
+    "rollout_index": 93,
+    "eval_task_index": 11,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Place a clean knife on a plate on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110445_675754/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110445_675754/traj_data.json",
+    "gamefile_sha256": "79304283a60cfd5dd5a9321fde9774a3e6d39965ec45b1b6a9ca314610247ef8",
+    "traj_json_sha256": "33733e0827afba9f08ea5fa762978f671a4d3c3c13c1750082b4cb3e1d0b3879"
+  },
+  {
+    "rollout_index": 94,
+    "eval_task_index": 12,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Wash a knife in the sink to place on a countertop.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110531_148235/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110531_148235/traj_data.json",
+    "gamefile_sha256": "b5445a2884c9af2430a04d32f1301b511953f00f6a8c3bf51121a420d6df0eeb",
+    "traj_json_sha256": "21455b90deb7c3f1129f386c648bdc9ac0e50ac0463282f3cbf7aa01d3ebe224"
+  },
+  {
+    "rollout_index": 95,
+    "eval_task_index": 13,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Fill up a mug with water and take to the coffee machine.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499/traj_data.json",
+    "gamefile_sha256": "1bf810cb4e96b7b8c7cb5aeb4bbb8ad0c6d531a31f730b9aa6a3785ca864bbd2",
+    "traj_json_sha256": "28736ab8fe419483034ccd5bce672883ab4a3c759dfbcc8f3ca9288ba3e283ad"
+  },
+  {
+    "rollout_index": 96,
+    "eval_task_index": 14,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a cleaned mug on the coffee maker to the right of the stove.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221300_362511/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221300_362511/traj_data.json",
+    "gamefile_sha256": "e710dcb6524496c4b9a7e718f320b2a13d9e4dd46a8a9f41d5cd4cdadf209d6b",
+    "traj_json_sha256": "4c6e9b77f0852b134da6b376b8259025281807ba9a05592ef663d32c2843e3f7"
+  },
+  {
+    "rollout_index": 97,
+    "eval_task_index": 15,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Pick up the white coffee cup, fill it in the sink, place it in the coffee maker. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505/traj_data.json",
+    "gamefile_sha256": "0fec20557722edb10a4057d1e98f4686cec9f9425fff7779ea7d3f82163deef0",
+    "traj_json_sha256": "fdda1895f0a6650cb12f409864e4f6f1bf7402852451a40fef9698b65db58c41"
+  },
+  {
+    "rollout_index": 98,
+    "eval_task_index": 16,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a cleaned pan on the counter. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032434_013084/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032434_013084/traj_data.json",
+    "gamefile_sha256": "fcbd6e7e61a5dab6ef40d66b06faf787c4dc75c8d958cccffbec46230af7b767",
+    "traj_json_sha256": "a071d4eb17a94b0893811cfb02e9d271203b48c4ff7a008d08065c301082b169"
+  },
+  {
+    "rollout_index": 99,
+    "eval_task_index": 17,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Place a washed pan on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/traj_data.json",
+    "gamefile_sha256": "ee5b61f704cda732e4a1b04b47ec6565a64173eb891b364a72c9ff336762e4a1",
+    "traj_json_sha256": "822f0e964e159dc279ae2bc20687e888b52eca26382ea7db9399220434b3755d"
+  },
+  {
+    "rollout_index": 100,
+    "eval_task_index": 18,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a cleaned pan on a counter top.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058/traj_data.json",
+    "gamefile_sha256": "328eefc03242a86072f5dd8a1dc7c0f95cbcb89450194994ec8517b79445c064",
+    "traj_json_sha256": "89547937f48c11ad4122cc1c1e2bf496b80deb245164886b7ec4786da17e35ac"
+  },
+  {
+    "rollout_index": 101,
+    "eval_task_index": 19,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "wash the dirty bowl before putting the bowl on the counter",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769/traj_data.json",
+    "gamefile_sha256": "3cf13c2ef308b24ff056819b7ebbd763490a0fe5ffd36a5f469526c9ae85987c",
+    "traj_json_sha256": "68f61c01f508ed8f0d78f34b56581563493dbc63f4514e816ae319a26f9e87fb"
+  },
+  {
+    "rollout_index": 102,
+    "eval_task_index": 20,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean plate on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917/traj_data.json",
+    "gamefile_sha256": "ff028de687d6a878e7d9661b09cd07c1f0fdc12c22cb1165d5b8bb756238b4d1",
+    "traj_json_sha256": "27ea18fbed03593c460708a4f3aa396aceca7fe1473440f19e65504f24a88110"
+  },
+  {
+    "rollout_index": 103,
+    "eval_task_index": 21,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean yellow plate on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213533_897289/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213533_897289/traj_data.json",
+    "gamefile_sha256": "3f6e665ce1941b68f162f1621f1c6b2948c3370942dd78ede08aa78fdee38d5e",
+    "traj_json_sha256": "a20088d47eda6375399ff061a4958fc542cd5efd03b0101cd11fa3d537ade5de"
+  },
+  {
+    "rollout_index": 104,
+    "eval_task_index": 22,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "put a rinsed off bar of soap in to the cabinet",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214926_337906/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214926_337906/traj_data.json",
+    "gamefile_sha256": "a3ce17eda328d394fd1cc265ec577b06921b6d3a6613f5e21e7c590a8feba94f",
+    "traj_json_sha256": "77d4e0ac7a2501e125e645b79b0a6d7873452936cdc78855ada79d9171eabf03"
+  },
+  {
+    "rollout_index": 105,
+    "eval_task_index": 23,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean bar of soap in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/traj_data.json",
+    "gamefile_sha256": "6989d97fa65f5009eee53e39814659b35f2577026687188f15c5f1c96188a6dd",
+    "traj_json_sha256": "d9aa45f22ba3ab2e675027bb9a18012737085a0c47915680928fdf6df490a46a"
+  },
+  {
+    "rollout_index": 106,
+    "eval_task_index": 24,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "put a rinse off bar of soap in to the cabinet",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/traj_data.json",
+    "gamefile_sha256": "49e078d7dfe382d9e06d57221d783909db5fb1d790c7d95ae2921bfc913ed0ae",
+    "traj_json_sha256": "0e82a37083e2bf2297eb73b6179f3f444383bda68712a4e1ddbeced4be42d30f"
+  },
+  {
+    "rollout_index": 107,
+    "eval_task_index": 25,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Rinse off the soap and place it on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/traj_data.json",
+    "gamefile_sha256": "f917bf1f3faf374d8cd09d79c026728de93e1246555a0069fc210f24858b57cb",
+    "traj_json_sha256": "6fdf6c080ae381d1559d0ba604b6f5e5165aa24b8e89129785b4f82635efc595"
+  },
+  {
+    "rollout_index": 108,
+    "eval_task_index": 26,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a wet soap on the counter. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/traj_data.json",
+    "gamefile_sha256": "2c76248334b9f021d3801ba38ebd6840e70356cb20e82ca503d29cf911e04b33",
+    "traj_json_sha256": "85c46e8cb65362037d20354b0c3c32e365c3252bde5b34db2e9b67f7fe95926e"
+  },
+  {
+    "rollout_index": 109,
+    "eval_task_index": 27,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a cleaned bar of soap on a counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/traj_data.json",
+    "gamefile_sha256": "94dc8b0f6003c614848c4907f14647fdbd3145f499ba89d43d6e08ebb956a78b",
+    "traj_json_sha256": "e14810309e124b66330f7f447abad1826cc4ab906adbd0176f66c89cc3ffc097"
+  },
+  {
+    "rollout_index": 110,
+    "eval_task_index": 28,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Wash the spatula, put it in the first drawer",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080730_211959/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080730_211959/traj_data.json",
+    "gamefile_sha256": "a14bfe1400f0f253bdc9de8553cded3ed788437ecdb4421517851cb305dacb19",
+    "traj_json_sha256": "a40dafba19a189b915ac39e3630825ae127295793a1f4c03502ebec59322bd3a"
+  },
+  {
+    "rollout_index": 111,
+    "eval_task_index": 29,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Put a clean spatula in a drawer.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080800_275989/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080800_275989/traj_data.json",
+    "gamefile_sha256": "f8fcaa506aab7f2a03a01bc5d241be83f340e86172dfa6c2115ce6c17b1ca7bf",
+    "traj_json_sha256": "94181b1da1996badf9fc164bd16f2a7e0f93c843999eee1b98be7ca0afb01491"
+  },
+  {
+    "rollout_index": 112,
+    "eval_task_index": 30,
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_desc": "Clean a spatula to put it away.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080825_222432/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080825_222432/traj_data.json",
+    "gamefile_sha256": "d53e86c1350f082624141a18d88981bd186c4a2195bffb3ab1311eba7d3c7d91",
+    "traj_json_sha256": "32a26bb4f93febd795ba7110c3b9da7e92bfc3473cb2ef4065f196cf4503c435"
+  },
+  {
+    "rollout_index": 113,
+    "eval_task_index": 0,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Cool some bread and the place it on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951/traj_data.json",
+    "gamefile_sha256": "727696ea61d34756624c122031712b997d2ea1c4ac763960b1c62f463ffb7ad3",
+    "traj_json_sha256": "a87e3ff8aff820a93b1792cd5ff37fdd7ec9910f1c67fa2ca17d11b133d346d0"
+  },
+  {
+    "rollout_index": 114,
+    "eval_task_index": 1,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put chilled bread on the counter, right of the fridge. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091811_414150/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091811_414150/traj_data.json",
+    "gamefile_sha256": "2fa15eb12b389a2f928006e2c9f7ecf44f173e0a8d4917902bd09e580ef99c4c",
+    "traj_json_sha256": "2791fe016d08a251aa16359bb59baba3eadc616b8bc2b60c57d0e90890be6589"
+  },
+  {
+    "rollout_index": 115,
+    "eval_task_index": 2,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a cool loaf of bread on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/traj_data.json",
+    "gamefile_sha256": "1f2a521686f7060834b62b72837189dead4946a078eb401e816bea278a0e6dd5",
+    "traj_json_sha256": "d6c3622e2f066ced040706e4d37d43779cc4353265a0ef8d8f59fe6cc86c4a46"
+  },
+  {
+    "rollout_index": 116,
+    "eval_task_index": 3,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "chill the lettuce then return it to the counter",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_123133_763972/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_123133_763972/traj_data.json",
+    "gamefile_sha256": "02d540d2357da71f8a6850ed3298d0dd408b72f037bfd8313fc398858ebc4159",
+    "traj_json_sha256": "6b50c9472929bf0c42acefbec9f6a81a99b02c490e12fc015ce4cc5c475d05d2"
+  },
+  {
+    "rollout_index": 117,
+    "eval_task_index": 4,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put chilled lettuce on the counter. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433/traj_data.json",
+    "gamefile_sha256": "e9066da86c214ab1412dcfccc939618d993581bfd9e9fa8f9aa14ee6813a3ee1",
+    "traj_json_sha256": "1218ebde91557cda5bdcb0b20a288b789c5062f783455ef38ba0ebb11d46ef0c"
+  },
+  {
+    "rollout_index": 118,
+    "eval_task_index": 5,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put chilled lettuce on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174840_771703/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174840_771703/traj_data.json",
+    "gamefile_sha256": "ca96ae5d83766405d4c150752cc7fdae4d9f3c0c0f31a76e8c8c16aebb40cf21",
+    "traj_json_sha256": "9e56de876bba12430c0c1b96e3b089708bb686a83125518bae6271792e66271e"
+  },
+  {
+    "rollout_index": 119,
+    "eval_task_index": 6,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a cold coffee up in the bottom cabinet. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363/traj_data.json",
+    "gamefile_sha256": "24bd19fbab28f104c8415b727a9c45593090d39ac600dc8682fccc0a8927a167",
+    "traj_json_sha256": "e276b28528a201af0deffb03d56d590036cf56a3debf5017797e1f50b616723f"
+  },
+  {
+    "rollout_index": 120,
+    "eval_task_index": 7,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Place a chilled mug in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/traj_data.json",
+    "gamefile_sha256": "5f7c50ff8a02c2b4835fa0ab19a90bd0f6d86d0e5a6d6a6f314370078bcacd07",
+    "traj_json_sha256": "d4549d2993ea6ee7b513fd045eb10dbbf0768246a52f930e828c78e3484ce51f"
+  },
+  {
+    "rollout_index": 121,
+    "eval_task_index": 8,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a chilled mug in a cabinet.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121710_650938/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121710_650938/traj_data.json",
+    "gamefile_sha256": "77e6c83aa8d991e796bcab3352352ac51ab378c3b75cba85016174a8cfe95bfd",
+    "traj_json_sha256": "b9ac7ff8df55f9d9b69a40d3af4c6866a36c1f0ce7bc0ca40de2bbbfc0aaab4c"
+  },
+  {
+    "rollout_index": 122,
+    "eval_task_index": 9,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Move a chilled mug to the coffee maker. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183715_299073/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183715_299073/traj_data.json",
+    "gamefile_sha256": "fd5f0f567b0e4c685dd1ee50558f631b78128a5ad8c82e7e8219f80c5efa1823",
+    "traj_json_sha256": "ba4a88a2f4e117da8a27a93e96702a5a1870dcb3929fa38426931186f5b9515b"
+  },
+  {
+    "rollout_index": 123,
+    "eval_task_index": 10,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "get mug from coffee maker, chill, and return mug to coffee maker",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183807_477267/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183807_477267/traj_data.json",
+    "gamefile_sha256": "5092a44350a94fee78b1f8fe57c7fd6038deda6daf41f4e7caf05e9de911e8e5",
+    "traj_json_sha256": "33820f454d0025416a9e02363925e9837109279a81437e21d5fae9405389e038"
+  },
+  {
+    "rollout_index": 124,
+    "eval_task_index": 11,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Cool a mug in the fridge",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183853_958104/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183853_958104/traj_data.json",
+    "gamefile_sha256": "5b3817a7abc995c27ab4a25773dc037d0edab947346383208fb77f70d17f4e7b",
+    "traj_json_sha256": "0b402388c87a72fd51e0c678db68c94e7fe4f83260e3df4af86c56f897dbbb78"
+  },
+  {
+    "rollout_index": 125,
+    "eval_task_index": 12,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Place a chilled pan on a counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/traj_data.json",
+    "gamefile_sha256": "a133ab7f447fbfe771d91ea56d7dfe1cc6faa3073dc085ef4c2b26870790970e",
+    "traj_json_sha256": "a0251b0f39d3dd8ef77e8a4c5ab064916e394eadba40bc300e2d648875d30bcb"
+  },
+  {
+    "rollout_index": 126,
+    "eval_task_index": 13,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a chilled pan on the counter.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114622_738670/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114622_738670/traj_data.json",
+    "gamefile_sha256": "042521f2a446d62d388879a2f0e0ece56b32107b22c774924a2c1b84e1970fb7",
+    "traj_json_sha256": "8140e0bd08f9fa9a31aa20e80b04dcbbf6560368cf81e8f9caac7b2843dc902b"
+  },
+  {
+    "rollout_index": 127,
+    "eval_task_index": 14,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a cold pan on the counter top on top of the dishwasher. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/traj_data.json",
+    "gamefile_sha256": "aa0507b26cce1275ea50cdb505c7fa1f4cc05fa68fe18bf38299bb7f53d28026",
+    "traj_json_sha256": "cb6acae868085ac9028ccc1a58b001f02462196c75ef0f12f54b3d992f97523d"
+  },
+  {
+    "rollout_index": 128,
+    "eval_task_index": 15,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "place a potato inside the microwave",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033157_424297/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033157_424297/traj_data.json",
+    "gamefile_sha256": "90507f9f6c10d19d06d045091990c8b15f653f724c2ab97522040c389989e205",
+    "traj_json_sha256": "b97984b01744e27ad83c30c9c448174bc7994d1623ab91eac6835e8e3423ecc7"
+  },
+  {
+    "rollout_index": 129,
+    "eval_task_index": 16,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a chilled potato in the microwave. ",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/traj_data.json",
+    "gamefile_sha256": "0c1526514d4f15e418f42762db0fa79763e42bde04bf4fd88ba0fb5e98bd5291",
+    "traj_json_sha256": "9afba389ffdf93c5056167f916f36840d1501425bc9518c92ad45beb6fdb0dab"
+  },
+  {
+    "rollout_index": 130,
+    "eval_task_index": 17,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "put a cooled potato inside the microwave",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974/traj_data.json",
+    "gamefile_sha256": "316514dee79eede36379ef616d4185bfa662906016274078153f93070ecc9224",
+    "traj_json_sha256": "03f80b3769687129cd52aa2521a91f80e5772ccd7dbfc56484a5253472d9d962"
+  },
+  {
+    "rollout_index": 131,
+    "eval_task_index": 18,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Put a cooled tomato in the microwave",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/traj_data.json",
+    "gamefile_sha256": "318e92d3a4d1bddf8f2d85c4f960e02b6e4c8deb040c1c0c62e4c01d15f99ef0",
+    "traj_json_sha256": "5bd2880008505dfb11955df16cd181b6eb0c1b249a9cf763e6e2fb03a6212baa"
+  },
+  {
+    "rollout_index": 132,
+    "eval_task_index": 19,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "cook a chilled tomato",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/traj_data.json",
+    "gamefile_sha256": "217721fe1a865ed56aa71722b9128e78fd75890648f04dc755b5b5c6e58ded32",
+    "traj_json_sha256": "94d02154b38b69e411dcdbf9a0d800fa0f31c8123d53bac2907cde0617879436"
+  },
+  {
+    "rollout_index": 133,
+    "eval_task_index": 20,
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_desc": "Place a chilled tomato in a microwave.",
+    "gamefile": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102710_795182/game.tw-pddl",
+    "traj_json": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102710_795182/traj_data.json",
+    "gamefile_sha256": "cd0ec2e58b65b39eeaceb353f80f9dc68c5764ccba498732702ff9f4704d6098",
+    "traj_json_sha256": "1b2b36a5c536af1697174b142f1b1b411271492f67bc719a2fbfc1e9e00deb2f"
+  }
+]

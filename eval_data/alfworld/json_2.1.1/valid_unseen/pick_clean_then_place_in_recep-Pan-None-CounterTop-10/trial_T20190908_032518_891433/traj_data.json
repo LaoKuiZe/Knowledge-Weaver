@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_032518_891433",
+  "task_type": "pick_clean_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Pan",
+    "parent_target": "CounterTop",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Place a washed pan on the counter."
+      }
+    ]
+  }
+}

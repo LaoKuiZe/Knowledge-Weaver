@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_080825_222432",
+  "task_type": "pick_clean_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Spatula",
+    "parent_target": "Drawer",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Clean a spatula to put it away."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_221300_362511",
+  "task_type": "pick_clean_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Mug",
+    "parent_target": "CoffeeMachine",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put a cleaned mug on the coffee maker to the right of the stove."
+      }
+    ]
+  }
+}

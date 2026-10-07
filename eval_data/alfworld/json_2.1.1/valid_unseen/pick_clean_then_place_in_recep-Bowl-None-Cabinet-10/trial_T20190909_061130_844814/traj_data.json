@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190909_061130_844814",
+  "task_type": "pick_clean_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Bowl",
+    "parent_target": "Cabinet",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put a washed bowl away in a kitchen cabinet."
+      }
+    ]
+  }
+}

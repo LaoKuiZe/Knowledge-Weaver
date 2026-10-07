@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190909_120632_691361",
+  "task_type": "pick_clean_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Egg",
+    "parent_target": "Microwave",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put a washed egg in a microwave."
+      }
+    ]
+  }
+}

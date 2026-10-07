@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_074524_006355",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Watch",
+    "parent_target": "Safe",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Move a watch to the inside of a small safe."
+      }
+    ]
+  }
+}

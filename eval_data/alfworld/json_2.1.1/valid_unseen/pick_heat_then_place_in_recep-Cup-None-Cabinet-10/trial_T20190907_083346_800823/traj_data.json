@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_083346_800823",
+  "task_type": "pick_heat_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Cup",
+    "parent_target": "Cabinet",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Warm up the cup inside the cabinet."
+      }
+    ]
+  }
+}

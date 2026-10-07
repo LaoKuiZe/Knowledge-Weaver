@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190909_012027_782483",
+  "task_type": "pick_two_obj_and_place",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "KeyChain",
+    "parent_target": "Safe",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put two sets of keys in the safe. "
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190906_184021_215264",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "PepperShaker",
+    "parent_target": "Drawer",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Put a salt shaker in a drawer."
+      }
+    ]
+  }
+}

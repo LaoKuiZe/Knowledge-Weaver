@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190907_161745_664033",
+  "task_type": "pick_heat_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Potato",
+    "parent_target": "GarbageCan",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Heat up a potato and put it in the trash."
+      }
+    ]
+  }
+}

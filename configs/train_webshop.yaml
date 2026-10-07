@@ -1,0 +1,321 @@
+# KnowledgeWeaver: standalone success + marginal success + tokenwise ABS-MI.
+experiment_name: knowledgeweaver-webshop
+trial_name: run1
+seed: 1
+enable_offload: true
+total_train_epochs: 1
+total_train_steps: 41
+tokenizer_path: ${actor.path}
+workflow: examples.webshop_skill.workflow.WebShopSkillGRPOWorkflow
+actor_server:
+  enabled: true
+  model_path: ${actor.path}
+  host: 127.0.0.1
+  port: 30080
+  cuda_visible_devices: ${oc.env:ACTOR_SERVER_CUDA_VISIBLE_DEVICES,"0,1,2,3,4,5"}
+  tensor_parallel_size: 1
+  data_parallel_size: 6
+  dtype: bfloat16
+  mem_fraction_static: 0.86
+  context_length: 16384
+  startup_timeout_s: 1800.0
+  api_key: ''
+  extra_args:
+  - --max-running-requests
+  - '256'
+  - --disable-cuda-graph
+webshop:
+  artifact_dir: ${oc.env:AREAL_OUTPUT_ROOT}/${experiment_name}/${trial_name}/webshop_skill
+  env_service_url: ${oc.env:WEBSHOP_ENV_URL,http://127.0.0.1:31080}
+  repo_root: ${oc.env:WEBSHOP_ROOT}
+  products_file: ${oc.env:WEBSHOP_DATA_ROOT}/items_shuffle.json
+  attributes_file: ${oc.env:WEBSHOP_DATA_ROOT}/items_ins_v2.json
+  human_attributes_file: ${oc.env:WEBSHOP_DATA_ROOT}/items_human_ins.json
+  search_index: ${oc.env:WEBSHOP_DATA_ROOT}/search_engine/indexes
+  human_goals: true
+  num_products: null
+  observation_mode: text_rich
+  task_split: official_train
+  environment_seed: 233
+  train_task_count: -1
+  eval_task_count: 100
+  task_seed: 1
+  unique_asin_split: false
+  rollouts_per_skill: 8
+  max_rollout_steps: 15
+  memory_window: 5
+  observation_char_limit: 5000
+  max_clickables: 60
+  invalid_action_retries: 1
+  success_threshold: 0.999999
+  actor_temperature: 0.0
+  actor_max_tokens: 128
+  actor_timeout_s: 120.0
+  rollout_timeout_s: 7200.0
+  episode_rollout_workers: 128
+  source_trajectories_per_prompt: 4
+  prompt_observation_char_limit: 400
+  skill_description_max_words: 100
+  samples_per_round: 0
+  rounds: 0
+  groups_per_round: 8
+  skill_generation_enable_thinking: false
+  skill_generation_max_retries: 0
+  reward:
+    sr_weight: 0.5
+    mutual_information_weight: 0.1
+    mutual_information_scale: 1.0
+    mutual_information_token_margin_clip: null
+    mutual_information_token_reward_soft_cap: null
+    schema_valid_bonus: 0.02
+    schema_invalid_penalty: -0.1
+    mutual_information_token_reward_clip: 0.15
+  parallelize_same_step_rounds: true
+  outcome_condition_workers: 32
+  skillbank:
+    top_k: 3
+    embedding_model: ${oc.env:WEBSHOP_EMBEDDING_MODEL,sentence-transformers/all-mpnet-base-v2}
+    embedding_batch_size: 64
+    embedding_max_length: 256
+    embedding_device: cpu
+    standalone_weight: 0.0
+    retrieval_weight: 1.0
+    update_min_marginal: 0.0
+    allow_noop_update: true
+    max_size: 0
+    reward_weight: 0.5
+webshop_eval:
+  enabled: true
+  workflow: examples.webshop_skill.workflow.WebShopSkillEvalWorkflow
+  k: 4
+  task_count: 100
+  seed: 1001
+  max_parallel_rollouts_per_skill: 64
+  checkpoint_retention_enabled: true
+  checkpoint_retention_keep_latest: 1
+  checkpoint_retention_metric: webshop_eval_skillbank_policy_sr
+cluster:
+  n_nodes: 1
+  n_gpus_per_node: 2
+  fileroot: ${oc.env:AREAL_OUTPUT_ROOT}
+  name_resolve:
+    type: nfs
+    nfs_record_root: ${oc.env:AREAL_NAME_RESOLVE_ROOT}
+scheduler:
+  type: local
+rollout:
+  backend: sglang:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  max_concurrent_rollouts: 256
+  queue_size: null
+  consumer_batch_size: ${train_dataset.batch_size}
+  max_head_offpolicyness: 0
+  enable_rollout_tracing: false
+  check_trajectory_format: false
+  scheduling_strategy:
+    type: colocation
+    target: actor
+    fork: true
+  scheduling_spec: ${ref.scheduling_spec}
+  fileroot: ${cluster.fileroot}
+  tokenizer_path: ${tokenizer_path}
+  dump_to_file: false
+  request_timeout: 7200.0
+  setup_timeout: 1800.0
+  agent:
+    mode: inline
+    export_style: individual
+    turn_discount: 1.0
+gconfig:
+  n_samples: 8
+  min_new_tokens: 0
+  max_new_tokens: 256
+  max_tokens: 6000
+  greedy: false
+  temperature: 1.0
+  top_p: 1.0
+eval_gconfig:
+  n_samples: 1
+  min_new_tokens: 0
+  max_new_tokens: 256
+  max_tokens: 6000
+  greedy: false
+  temperature: 1.0
+  top_p: 1.0
+actor:
+  scheduling_strategy:
+    type: separation
+  backend: fsdp:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  path: ${oc.env:ACTOR_MODEL_PATH,Qwen/Qwen3.5-4B}
+  init_from_scratch: false
+  disable_dropout: true
+  gradient_checkpointing: true
+  dtype: bfloat16
+  optimizer_dtype: bfloat16
+  offload: true
+  attn_impl: sdpa
+  mb_spec:
+    max_tokens_per_mb: 6000
+    packing_algorithm: ffd
+  optimizer:
+    type: adam_bf16
+    lr: 1.0e-06
+    weight_decay: 0.01
+    beta1: 0.9
+    beta2: 0.999
+    eps: 1.0e-08
+    lr_scheduler_type: constant
+    gradient_clipping: 1.0
+    warmup_steps_proportion: 0.0
+  eps_clip: 0.2
+  temperature: ${gconfig.temperature}
+  reward_scaling: 1.0
+  reward_bias: 0.0
+  kl_ctl: 0.01
+  ppo_n_minibatches: 32
+  recompute_logprob: true
+  use_decoupled_loss: true
+  prox_logp_method: loglinear
+  rejection_sampling: null
+  reward_norm:
+    mean_level: group
+    std_level: group
+    group_size: ${gconfig.n_samples}
+  adv_norm:
+    mean_level: batch
+    std_level: batch
+  weight_update_mode: disk
+  max_new_tokens: ${gconfig.max_new_tokens}
+  scheduling_spec:
+  - task_type: worker
+    port_count: 2
+    gpu: 1
+    mem: 48
+    cmd: python3 -m areal.infra.rpc.rpc_server
+    env_vars: {}
+ref:
+  backend: fsdp:d2
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  path: ${actor.path}
+  init_from_scratch: false
+  disable_dropout: true
+  dtype: ${actor.dtype}
+  offload: true
+  attn_impl: ${actor.attn_impl}
+  mb_spec:
+    max_tokens_per_mb: 6000
+    packing_algorithm: ffd
+  optimizer: null
+  scheduling_strategy:
+    type: colocation
+    target: actor
+    fork: true
+  scheduling_spec:
+  - task_type: worker
+    port_count: 2
+    gpu: 1
+    mem: 48
+    cmd: python3 -m areal.infra.rpc.rpc_server
+    env_vars: {}
+critic: null
+sglang:
+  enable_memory_saver: true
+  model_path: ${actor.path}
+  random_seed: ${seed}
+  skip_tokenizer_init: true
+  dtype: ${actor.dtype}
+  max_running_requests: 256
+  context_length: 16384
+  mem_fraction_static: 0.55
+  attention_backend: null
+  disable_cuda_graph: true
+vllm:
+  model: ${actor.path}
+  seed: ${seed}
+  skip_tokenizer_init: false
+  dtype: ${actor.dtype}
+  max_model_len: 32768
+  gpu_memory_utilization: 0.3
+train_dataset:
+  batch_size: 32
+  shuffle: false
+  pin_memory: true
+  num_workers: 0
+  drop_last: false
+  path: webshop_skill
+  type: rl
+  max_length: null
+  dataset_kwargs:
+    seed: ${seed}
+valid_dataset:
+  batch_size: 4
+  shuffle: false
+  pin_memory: true
+  num_workers: 0
+  drop_last: false
+  path: webshop_skill
+  type: rl
+  max_length: null
+  split: eval
+  dataset_kwargs:
+    mode: eval
+    seed: ${seed}
+saver:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${oc.env:AREAL_CHECKPOINT_ROOT}
+  freq_epochs: null
+  freq_steps: 1
+  freq_secs: null
+  force_steps:
+  - 39
+  - 40
+recover:
+  mode: auto
+  no_save_optim: true
+  no_load_optim: true
+  align_dataloader_to_step: true
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${oc.env:AREAL_CHECKPOINT_ROOT}
+  freq_epochs: null
+  freq_steps: 10
+  freq_secs: null
+evaluator:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  freq_epochs: null
+  freq_steps: 1
+  freq_secs: null
+  eval_before_train: false
+stats_logger:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  wandb:
+    mode: ${oc.env:WANDB_MODE,disabled}
+    wandb_base_url: ${oc.env:WANDB_BASE_URL,""}
+    wandb_api_key: ${oc.env:WANDB_API_KEY,""}
+    entity: null
+    project: ${oc.env:WANDB_PROJECT,webshop-skill-grpo}
+    name: ${trial_name}
+    job_type: train
+    group: ${experiment_name}
+    tags:
+    - knowledgeweaver
+    - webshop
+    notes: 0.5 standalone success + 0.5 bank marginal success; tokenwise absolute
+      MI weight 0.1, cap 0.15.
+    id_suffix: train
+perf_tracer:
+  experiment_name: ${experiment_name}
+  trial_name: ${trial_name}
+  fileroot: ${cluster.fileroot}
+  enabled: false
+  session_tracer:
+    enabled: false

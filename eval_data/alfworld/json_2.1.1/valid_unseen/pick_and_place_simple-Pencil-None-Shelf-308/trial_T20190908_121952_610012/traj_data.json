@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190908_121952_610012",
+  "task_type": "pick_and_place_simple",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Pencil",
+    "parent_target": "Shelf",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "Take the pencil from the desk, put it back on the desk"
+      }
+    ]
+  }
+}

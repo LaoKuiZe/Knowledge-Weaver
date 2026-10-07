@@ -1,0 +1,46 @@
+alfworld:
+  split: valid_unseen
+  tasks_per_type: 0
+  expected_total_games: 134
+
+actor:
+  model: Qwen/Qwen3.5-4B
+  request_model: ""
+  base_url: ""
+  api_key_env: ""
+  chat_completions: false
+  enable_thinking: false
+  temperature: 0.0
+  timeout_s: 120
+  server:
+    host: 127.0.0.1
+    port: 34080
+    gpus: "0,1,2,3"
+    tp_size: 1
+    dp_size: 0
+    dtype: bfloat16
+    mem_fraction_static: 0.86
+    context_length: 16384
+    server_extra_arg: [--max-running-requests, "512"]
+    startup_timeout_s: 1800
+
+embedding:
+  model: sentence-transformers/all-mpnet-base-v2
+  device: cpu
+  batch_size: 32
+  max_length: 256
+  cache_dir: ""
+
+evaluation:
+  top_k_values: "10"
+  expected_skill_count: 50
+  seed: 1001
+  max_rollout_steps: 50
+  memory_window: 5
+  max_commands: 140
+  rollout_workers: 384
+  rollout_backend: process
+  rollout_processes: 32
+  initial_observation_workers: 16
+  episode_max_attempts: 3
+  progress_every: 8

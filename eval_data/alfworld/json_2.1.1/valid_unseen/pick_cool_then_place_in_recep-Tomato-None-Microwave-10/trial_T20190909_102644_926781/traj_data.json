@@ -1,0 +1,18 @@
+{
+  "task_id": "trial_T20190909_102644_926781",
+  "task_type": "pick_cool_then_place_in_recep",
+  "pddl_params": {
+    "mrecep_target": "",
+    "object_sliced": false,
+    "object_target": "Tomato",
+    "parent_target": "Microwave",
+    "toggle_target": ""
+  },
+  "turk_annotations": {
+    "anns": [
+      {
+        "task_desc": "cook a chilled tomato"
+      }
+    ]
+  }
+}
